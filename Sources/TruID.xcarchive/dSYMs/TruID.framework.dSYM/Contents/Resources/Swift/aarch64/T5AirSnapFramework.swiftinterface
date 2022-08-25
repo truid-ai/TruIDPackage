@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name T5AirSnapFramework
+import Foundation
+import Swift
+@_exported import T5AirSnapFramework
+import UIKit
+import _Concurrency
+public class SgmRectImage {
+  public var width: Swift.UInt32
+  public var height: Swift.UInt32
+  public var pos: T5AirSnapFramework.NIST_POS_CODE
+  public var image: Swift.UnsafeMutablePointer<Swift.UInt8>?
+  public var coords: [[Swift.Int32]]
+  public init()
+  @objc deinit
+}
+public class T5AirSnap {
+  public func getDeviceIdentifier() -> Swift.String
+  public func getVersion() -> Swift.String
+  public func getLicenseData() -> Swift.String
+  public func initSDK(license: Swift.UnsafePointer<Swift.UInt8>, ret: inout Swift.Int32) -> Swift.String
+  public func shutdownSDK() -> Swift.Int32
+  public func setOrientationCheck(orientationCheck: Swift.Bool)
+  public func setLivenessCheck(livenessCheck: Swift.Bool)
+  public func setPositionCode(positionCode: T5AirSnapFramework.NIST_POS_CODE)
+  public func setDetectorThreshold(detectorThreshold: Swift.Float) -> Swift.Int32
+  public func setCacheDir(cacheDir: Swift.UnsafePointer<Swift.UInt8>)
+  public func setSaveFramesFlag(saveFrames: Swift.Bool)
+  public func initBorder(frameWidth: Swift.Int32, frameHeight: Swift.Int32, viewWidth: Swift.Int32, viewHeight: Swift.Int32)
+  public func getBorderRectangle(left: inout Swift.Int32, top: inout Swift.Int32, right: inout Swift.Int32, bottom: inout Swift.Int32) -> Swift.Int32
+  public func analyzeImage(yBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, vuBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, rotationDegrees: Swift.Int32, width: Swift.Int32, height: Swift.Int32, rects: inout Swift.Array<T5AirSnapFramework.SgmRectImage>, rectsCount: inout Swift.Int32) -> T5AirSnapFramework.CaptureStatus
+  public func checkReverse(reverseFlag: inout Swift.Bool) -> Swift.Int32
+  public func checkThumb(wrongThumb: inout Swift.Bool) -> Swift.Int32
+  public func segmentFingers(grayBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, width: inout Swift.Int32, height: inout Swift.Int32, rects: inout Swift.Array<T5AirSnapFramework.SgmRectImage>, rectsCount: inout Swift.Int32, gender: Swift.UInt8, age: Swift.UInt8, livenessScore: inout Swift.UInt8) -> Swift.Int32
+  public func createTemplateMinex(rawImages: Swift.UnsafeMutablePointer<T5AirSnapFramework.RawImage>, numFingers: Swift.UInt32, minexTemplateType: T5AirSnapFramework.MinexTemplateType, templateBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, nistQuality: inout Swift.UInt8, quality: inout Swift.UInt8, minutiaesNumber: inout Swift.UInt8, templateSize: inout Swift.UInt32, maxTemplateSize: Swift.Int32 = 500, certifiedSensor: Swift.Bool = false, sensorId: Swift.UInt16 = 0) -> Swift.Int32
+  public func getNistFingerImageQuality(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, quality: inout Swift.UInt8) -> Swift.Int32
+  public func convertRawToWsq(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, wsqBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, wsqBufferSize: inout Swift.UInt32, compress: Swift.Float = 10.0) -> Swift.Int32
+  public func convertRawToBmp(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, bmpBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, bmpBufferSize: inout Swift.UInt32) -> Swift.Int32
+  public func convertRawToPng(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, pngBuffer: Swift.UnsafeMutablePointer<Swift.UInt8>, pngBufferSize: inout Swift.UInt32, compressionLevel: Swift.Int32) -> Swift.Int32
+  @available(*, deprecated, message: "use cropImage instead")
+  public func cropTo512x512(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, rawImage512: Swift.UnsafeMutablePointer<Swift.UInt8>) -> Swift.Int32
+  public func cropImage(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, croppedRawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, newWidth: Swift.Int32, newHeight: Swift.Int32, paddingColor: Swift.UInt8) -> Swift.Int32
+  public func getScaleByDpi(sourceDpi: Swift.Int32) -> Swift.Double
+  public func getScaleByRuler(rulerLengthInPixels: Swift.Double, rulerLengthInUnits: Swift.Double, rulerUnits: Swift.UInt8) -> Swift.Double
+  public func getAutoscale(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, gender: Swift.UInt8, fingerPosition: Swift.UInt8, age: Swift.UInt8) -> Swift.Double
+  public func scaleImage(rawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, width: Swift.Int32, height: Swift.Int32, scaledRawImage: Swift.UnsafeMutablePointer<Swift.UInt8>, newWidth: Swift.Int32, newHeight: Swift.Int32, paddingColor: Swift.UInt8) -> Swift.Int32
+  public init()
+  @objc deinit
+}
