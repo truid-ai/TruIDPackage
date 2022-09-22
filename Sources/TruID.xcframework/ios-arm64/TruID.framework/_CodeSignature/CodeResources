@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hZuwjNZMEBmml5JRcLxztUDznVQ=
+		mGkkO4EqpFs5Em1Wl6UgTMDLRBM=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Oavq4/CXAVTJcsmYA6IY840lZW8=
+		kLx6zY9JLYKIdbkw4LH2aZCXY8s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcOia+PLKs/vL1IMUINQVilvGPdlAdzFFZJANdf8DFQ=
+			5Lzmn0Eube7d1gOVnfDPJvq7L3NMrJnBSFxBhDVfaCM=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VrFf4FeCzRdWVKsNRjyudEvWalNGELC8N99mQTo6iXw=
+			/HPMvKWsOkp+z4bYbux5I2iDPMk0KVL6SSfGpfltcRA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
