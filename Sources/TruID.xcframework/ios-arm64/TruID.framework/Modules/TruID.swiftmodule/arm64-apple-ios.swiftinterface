@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TruID
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TruID
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Alamofire
 import CoreGraphics
@@ -18,6 +19,7 @@ import VideoToolbox
 import Vision
 import _Concurrency
 import _MapKit_SwiftUI
+import _StringProcessing
 public struct TestView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
@@ -174,20 +176,20 @@ public struct CardHelpScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
-public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreGraphics.CGSize {
+public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreFoundation.CGSize {
 }
 extension TruID.CGSizePreferenceKey {
-  public static func reduce(value _: inout CoreGraphics.CGSize, nextValue: () -> CoreGraphics.CGSize)
+  public static func reduce(value _: inout CoreFoundation.CGSize, nextValue: () -> CoreFoundation.CGSize)
 }
 extension SwiftUI.View {
-  public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreGraphics.CGSize) -> Swift.Void) -> some SwiftUI.View where Key : TruID.CGSizePreferenceKey
+  public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreFoundation.CGSize) -> Swift.Void) -> some SwiftUI.View where Key : TruID.CGSizePreferenceKey
   
 }
 @_Concurrency.MainActor(unsafe) public struct TruidMain : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, verisys_verification: Swift.Bool = true, personal_information_verification: Swift.Bool = true, mobile_number_verification: Swift.Bool = true, undertaking: Swift.Bool = true, agent_verification: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, verisys_verification: Swift.Bool = true, personal_information_verification: Swift.Bool = true, mobile_number_verification: Swift.Bool = true, undertaking: Swift.Bool = true, agent_verification: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 @_inheritsConvenienceInitializers @objc public class Finger : ObjectiveC.NSObject {

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "8dd85aee02e39dd280c75eef88ffdb86eed4b07b",
+        "version" : "5.6.2"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "246bab7ef72bad56abefb88e84a08871cecf9cb8",
+        "version" : "3.4.0"
+      }
+    },
+    {
+      "identity" : "t5airsnappackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/truid-ai/T5AirSnapPackage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d42794b99f44f940d3983fc182a20c50258099d2"
+      }
+    }
+  ],
+  "version" : 2
+}

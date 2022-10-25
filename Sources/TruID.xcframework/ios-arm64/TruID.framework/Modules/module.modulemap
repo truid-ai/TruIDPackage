@@ -6,6 +6,6 @@ framework module TruID {
 }
 
 module TruID.Swift {
-    header "TruID-Swift.h"
-    requires objc
+  header "TruID-Swift.h"
+  requires objc
 }
