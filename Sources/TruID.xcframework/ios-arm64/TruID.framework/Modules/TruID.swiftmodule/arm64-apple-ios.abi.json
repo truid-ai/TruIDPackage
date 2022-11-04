@@ -3608,6 +3608,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "passive_face_liveness",
+            "printedName": "passive_face_liveness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID10StepConfigV21passive_face_livenessSbSgvp",
+            "mangledName": "$s5TruID10StepConfigV21passive_face_livenessSbSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID10StepConfigV21passive_face_livenessSbSgvg",
+                "mangledName": "$s5TruID10StepConfigV21passive_face_livenessSbSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -6839,7 +6899,7 @@
     {
       "filePath": "\/Users\/abdullah\/Desktop\/TruID\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 692,
+      "offset": 757,
       "length": 5,
       "value": "false"
     },
@@ -7434,7 +7494,14 @@
     {
       "filePath": "\/Users\/abdullah\/Desktop\/TruID\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 985,
+      "offset": 983,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullah\/Desktop\/TruID\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1017,
       "length": 5,
       "value": "false"
     },

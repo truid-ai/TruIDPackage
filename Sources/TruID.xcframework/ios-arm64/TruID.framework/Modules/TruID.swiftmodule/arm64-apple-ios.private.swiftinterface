@@ -122,6 +122,7 @@ public struct StepConfig : Swift.Codable {
   public let document_authenticity: Swift.Bool?
   public let document_backside_capture: Swift.Bool?
   public let finger_selection: Swift.Bool?
+  public let passive_face_liveness: Swift.Bool?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
