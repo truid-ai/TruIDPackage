@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		WA2ByxoyQQsI0khYiJdoVYC+GZw=
+		niyUauEF09ITve6LROplCXTunnM=
 		</data>
 		<key>Headers/TruID-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CBjBA0WvbzUH82tVw8wYRWrEP+Y=
+		spZCswx5OxphoMP9Z1pGHSu8aHI=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GtHDNkf86D3Y8Uip7aEiGA3KZc8=
+		wFlFbX/6h6Rfut36I5QFqKkaOkg=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GtHDNkf86D3Y8Uip7aEiGA3KZc8=
+		wFlFbX/6h6Rfut36I5QFqKkaOkg=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZrT6kzSxAnqRdncY5C7jYaxHDtw=
+		ZE+Bv9WD/tH5ZByl2SntGPFNmMI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTl0Vsg8mC/ex6Mxv6k/PDirPjMKe9tMCjpu3MuAl7A=
+			BRKSk8NqBpyH8QECCK477K7RKbJfsTMFCOR3x270RrU=
 			</data>
 		</dict>
 		<key>Headers/TruID-Swift.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQc5cwfHKAiTTtO1MIz56EbEoLVWcz3fv6/u7whjU5k=
+			fOMxA3q8SB74/y0eEYq3JK2xpSXi6Q0fpGH9eDkrvc8=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MsAmSU2fKsDMd2ydnBU2R/RsvUePC7GMq+xfVyiSEOo=
+			8k/E6eKPH3mWSvm1THN7b8xajcAl6DfFeYqss6NrEb0=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MsAmSU2fKsDMd2ydnBU2R/RsvUePC7GMq+xfVyiSEOo=
+			8k/E6eKPH3mWSvm1THN7b8xajcAl6DfFeYqss6NrEb0=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XzJ1ddfaVgKrcHTG1ZmQ9VS9DzzKzFgnujxSmxYZlMg=
+			f7Okxpkb5zKf856b2AWOoTKyxrC0KgyX+X6e9Fr1kFc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
