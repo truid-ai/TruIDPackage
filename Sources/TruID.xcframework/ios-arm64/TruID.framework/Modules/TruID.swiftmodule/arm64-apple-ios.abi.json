@@ -7106,1043 +7106,1043 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/NonCameraScreenLayout.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/NonCameraScreenLayout.swift",
       "kind": "BooleanLiteral",
       "offset": 238,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/NonCameraScreenLayout2.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/NonCameraScreenLayout2.swift",
       "kind": "BooleanLiteral",
       "offset": 204,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 330,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 32,
       "value": "\"ai.truid.TruID.VisionFaceTrack\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 610,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/CameraSetup\/CameraHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 757,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 15,
       "value": "\"Select Finger\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/TestView.swift",
       "kind": "Array",
       "offset": 276,
       "length": 28,
       "value": "[\"PSO\", \"PFA\", \"AIR\", \"HOT\"]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2746,
       "length": 6,
       "value": "\"Name\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2775,
       "length": 8,
       "value": "\"Gender\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2810,
       "length": 13,
       "value": "\"Father Name\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2851,
       "length": 15,
       "value": "\"Date of Birth\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2894,
       "length": 15,
       "value": "\"Date of Issue\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2938,
       "length": 16,
       "value": "\"Date of Expiry\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2985,
       "length": 17,
       "value": "\"Identity Number\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2746,
       "length": 6,
       "value": "\"Name\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2775,
       "length": 8,
       "value": "\"Gender\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2810,
       "length": 13,
       "value": "\"Father Name\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2851,
       "length": 15,
       "value": "\"Date of Birth\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2894,
       "length": 15,
       "value": "\"Date of Issue\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2938,
       "length": 16,
       "value": "\"Date of Expiry\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/Requests\/Requests.swift",
       "kind": "StringLiteral",
       "offset": 2985,
       "length": 17,
       "value": "\"Identity Number\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/ReportScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/ReportScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 166,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/MobileNumberScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/MobileNumberScreen.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "Array",
       "offset": 361,
       "length": 251,
       "value": "[\"face_liveness\", \"document_capture\", \"fingerprint_capture\", \"personal_information_verification\", \"mobile_number_verification\", \"undertaking\", \"agent_verification\", \"complete_page\"]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "Array",
       "offset": 738,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "Array",
       "offset": 771,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 899,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 984,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1129,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1179,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1226,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "Array",
       "offset": 1503,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1540,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1693,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1697,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1709,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1713,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1724,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 1728,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
       "offset": 1740,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1779,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 1820,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2476,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2480,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2492,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2496,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2507,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 2511,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
       "offset": 2523,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 2670,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
       "offset": 2711,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 11,
       "value": "\"TruID.GlobalState\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/SubViews\/RectanglesView.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/SubViews\/RectanglesView.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 12,
       "value": "\"Video feed\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 517,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 521,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 580,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 584,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/PercentageProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 644,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 30,
       "value": "\"https:\/\/release-api.truid.ai\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "Dictionary",
       "offset": 315,
       "length": 694,
       "value": "[(\"demo_video\", false), (\"face_liveness\", false), (\"passive_face_liveness\", false), (\"on_device_liveness\", false), (\"document_capture\", true), (\"extract_data\", true), (\"document_authenticity\", true), (\"document_backside_capture\", true), (\"id_to_selfie_matching\", false), (\"fingerprint_capture\", false), (\"finger_selection\", false), (\"verisys_verification\", false), (\"personal_information_verification\", false), (\"mobile_number_verification\", false), (\"undertaking\", false), (\"account_options\", false), (\"agent_verification\", false)]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/StartScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/StartScreen.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 16,
       "value": "\"ai.truid.TruID\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "Array",
-      "offset": 505,
+      "offset": 649,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 647,
+      "offset": 791,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 684,
+      "offset": 828,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 729,
+      "offset": 873,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 761,
+      "offset": 905,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 806,
+      "offset": 950,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 839,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 881,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 948,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 984,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1070,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1107,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1155,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1205,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/FingerprintHelpScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 16,
-      "value": "\"ai.truid.TruID\""
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
-      "kind": "StringLiteral",
-      "offset": 209,
-      "length": 16,
-      "value": "\"ai.truid.TruID\""
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 43,
-      "value": "\"Please bring your face inside the circle.\""
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "Array",
-      "offset": 445,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 561,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 597,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 639,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 661,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 693,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 766,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 797,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 835,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 908,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 951,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 983,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1025,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1092,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1128,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1299,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/FingerprintHelpScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 16,
+      "value": "\"ai.truid.TruID\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 16,
+      "value": "\"ai.truid.TruID\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 43,
+      "value": "\"Please bring your face inside the circle.\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "Array",
+      "offset": 445,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 639,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 661,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 797,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 835,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 983,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1017,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 30,
       "value": "\"https:\/\/release-api.truid.ai\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 664,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 703,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 738,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 782,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 830,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 874,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 916,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 960,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1012,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1068,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1117,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1151,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1201,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1327,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1331,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1347,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "IntegerLiteral",
       "offset": 1362,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "FloatLiteral",
       "offset": 1374,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1520,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/TruidMain.swift",
       "kind": "BooleanLiteral",
       "offset": 1560,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/Finger.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/Finger.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/Finger.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/Finger.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 948,
       "length": 4,
       "value": "1920"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 986,
       "length": 4,
       "value": "1080"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1019,
       "length": 4,
       "value": "1920"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1054,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1082,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1110,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "Array",
       "offset": 1195,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1311,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1419,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "StringLiteral",
       "offset": 1458,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Handlers\/FingerprintHandler.swift",
       "kind": "Array",
       "offset": 1508,
       "length": 16,
       "value": "[[], [], [], []]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 517,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 521,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 580,
       "length": 3,
       "value": "245"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 584,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/ProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 644,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 326,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 2960,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/Views\/FaceHelpScreen.swift",
       "kind": "Array",
       "offset": 2983,
       "length": 27,
       "value": "[\"align_face\", \"face_left\"]"
     },
     {
-      "filePath": "\/Users\/abdullahcheema\/work\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/Topbar.swift",
+      "filePath": "\/Users\/truid\/Truid-IOS\/TruID\/TruID\/LayoutComponents\/Topbar.swift",
       "kind": "BooleanLiteral",
       "offset": 159,
       "length": 4,
