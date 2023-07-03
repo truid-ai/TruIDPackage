@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TruID
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -30,8 +30,8 @@ public struct TestView : SwiftUI.View {
 public enum StatusValue : Swift.Codable {
   case string(Swift.String)
   case bool(Swift.Bool)
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var value: Swift.Bool {
     get
   }
@@ -39,31 +39,31 @@ public enum StatusValue : Swift.Codable {
 public struct VerificationDataResult : Swift.Codable {
   public let names: [Swift.String]
   public let cities: [Swift.String]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct UploadVerificationDataRequest : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct UploadPhoneNumberRequest : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GetUndertakingResult : Swift.Codable {
   public let detail_undertaking: Swift.String
   public let short_undertaking: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AcceptUndertakingRequest : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ReportStep : Swift.Codable {
   public let status: TruID.StatusValue?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExtractedData : Swift.Codable {
   public let Name: Swift.String?
@@ -73,19 +73,19 @@ public struct ExtractedData : Swift.Codable {
   public let DateOfIssue: Swift.String?
   public let DateOfExpiry: Swift.String?
   public let IdentityNumber: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DocumentCaptureReport : Swift.Codable {
   public let extracted_data: TruID.ExtractedData?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DocumentCaptureReportStep : Swift.Codable {
   public let status: TruID.StatusValue?
   public let report: TruID.DocumentCaptureReport?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Report : Swift.Codable {
   public let document_authenticity: TruID.ReportStep?
@@ -99,21 +99,21 @@ public struct Report : Swift.Codable {
   public let verisys_verification: TruID.ReportStep?
   public let undertaking: TruID.ReportStep?
   public let agent_verification: TruID.ReportStep?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Configuration : Swift.Codable {
   public let config: [TruID.Config]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Config : Swift.Codable {
   public let path: Swift.String?
   public let type: Swift.String
   public let required: Swift.Bool?
   public let step_config: TruID.StepConfig?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct StepConfig : Swift.Codable {
   public let id_to_selfie_matching: Swift.Bool?
@@ -123,45 +123,45 @@ public struct StepConfig : Swift.Codable {
   public let document_backside_capture: Swift.Bool?
   public let finger_selection: Swift.Bool?
   public let passive_face_liveness: Swift.Bool?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Session : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let status: Swift.String?
   public let configuration: TruID.Configuration
   public typealias ID = Swift.Int
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SessionResult : Swift.Codable {
   public let id: Swift.Int
   public let report: TruID.Report
   public let status: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AgentRequest : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Agent : Swift.Codable, Swift.Hashable {
   public let id: Swift.Int
   public let name: Swift.String
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: TruID.Agent, b: TruID.Agent) -> Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ChooseAgentRequest : Swift.Codable {
   public let session: Swift.Int
   public let chosen_agent: Swift.Int
   public let meta: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CardHelpScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
