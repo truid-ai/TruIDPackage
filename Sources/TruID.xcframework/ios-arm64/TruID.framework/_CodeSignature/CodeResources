@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		niyUauEF09ITve6LROplCXTunnM=
+		dujhIx4CzgxLKDRj/u/4kS/GpRs=
 		</data>
 		<key>Headers/TruID-Swift.h</key>
 		<data>
-		cpOOe0MmS/UKXnghF/o4Ww/b7jU=
+		YMTxay/kVs/liW+8c0IXsJieMYA=
 		</data>
 		<key>Headers/TruID.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V/VTM7d7qTircLkTxMyDSYS/vUM=
+		a/HyNfLYXFhA/VG8cRmz/oIFBmw=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		spZCswx5OxphoMP9Z1pGHSu8aHI=
+		VWjHlT8SSCAGmH4XHIZOLKW5YKQ=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wFlFbX/6h6Rfut36I5QFqKkaOkg=
+		wvRU205JL9gnKCCxLlNxV+rppoI=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jqBar7byWAMBqH73slnBMz/q60U=
+		XkkaSFMmXV57K0wEzUb7yi+NDH8=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wFlFbX/6h6Rfut36I5QFqKkaOkg=
+		wvRU205JL9gnKCCxLlNxV+rppoI=
 		</data>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZE+Bv9WD/tH5ZByl2SntGPFNmMI=
+		C7xd2nkuxJRcI+KOcv5AwxDAwMo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		azDkaqCARkhRRiqmzbw/RP8PDcE=
+		4REr0rNcyWQN/o8QVH5YMTq+mnU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRKSk8NqBpyH8QECCK477K7RKbJfsTMFCOR3x270RrU=
+			TQocUqrlPSMznDpeJ4YniPz9q2qUB6zL36tr4ItX8tw=
 			</data>
 		</dict>
 		<key>Headers/TruID-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OpfeFSMiiH3IVTGa5ZWW5udAyFxqPXRFIR4Is5kIjXs=
+			i51Kho67FozNETigXa+ncleHUzujAk9EYJio9mfTB9g=
 			</data>
 		</dict>
 		<key>Headers/TruID.h</key>
@@ -72,42 +72,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOMxA3q8SB74/y0eEYq3JK2xpSXi6Q0fpGH9eDkrvc8=
+			QpES7CfnbVGCZIEB5B+lCr6+Na/XNyHm3Tt1tgB06Pk=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8k/E6eKPH3mWSvm1THN7b8xajcAl6DfFeYqss6NrEb0=
+			FNcJ9IFSdIdolQHD4I9H/VY4wZhAIUubt9+2LtNFvo8=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pA9ZZyHg8g8R/tHPAGlb0RkhKez4GmQ21cZW5poD424=
+			IQpvqlGoFBjIsBXSj0UYNfok2dYx66C3ZSy+RT0WPwg=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8k/E6eKPH3mWSvm1THN7b8xajcAl6DfFeYqss6NrEb0=
+			FNcJ9IFSdIdolQHD4I9H/VY4wZhAIUubt9+2LtNFvo8=
 			</data>
 		</dict>
 		<key>Modules/TruID.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f7Okxpkb5zKf856b2AWOoTKyxrC0KgyX+X6e9Fr1kFc=
+			zON/0Yt7ejfZKGHU2rpKPBY82l0hmIsnNuVQO5NMGn8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TjOD76Vb0/GDq8OzXpOeDX3mezsNAeShTl+pqcuZEA=
+			UeWWTFHFcH1X8G5UxsnVZT0E6iF7sIuSAeirR1YEkXM=
 			</data>
 		</dict>
 	</dict>
