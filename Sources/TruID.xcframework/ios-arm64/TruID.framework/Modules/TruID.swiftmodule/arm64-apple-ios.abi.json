@@ -13166,483 +13166,497 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 2477,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 3213,
       "length": 19,
       "value": "\"Download Finished\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 3533,
+      "offset": 3659,
       "length": 9,
       "value": "\"meta123\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 3572,
+      "offset": 3698,
       "length": 11,
       "value": "\"127.0.0.1\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 3765,
+      "offset": 3891,
       "length": 17,
       "value": "\"\/create-session\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 3863,
+      "offset": 3989,
       "length": 14,
       "value": "\"session id: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 4231,
+      "offset": 4357,
       "length": 10,
       "value": "\"\/agents\/\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
+      "offset": 4427,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "Dictionary",
-      "offset": 4930,
+      "offset": 5056,
       "length": 125,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 5160,
+      "offset": 5286,
       "length": 6,
       "value": "\"meta\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 5211,
+      "offset": 5337,
       "length": 15,
       "value": "\"\/choose-agent\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 5332,
+      "offset": 5458,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 6073,
+      "offset": 6199,
       "length": 21,
       "value": "\"\/upload-agent-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 6175,
+      "offset": 6301,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "BooleanLiteral",
-      "offset": 6823,
+      "offset": 6949,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 6974,
+      "offset": 7100,
       "length": 26,
       "value": "\"\/upload-pose-agent-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 7081,
+      "offset": 7207,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 8990,
+      "offset": 9116,
       "length": 26,
       "value": "\"\/verify-session-by-agent\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 9097,
+      "offset": 9223,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 9877,
+      "offset": 10003,
       "length": 25,
       "value": "\"\/upload-reference-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 9917,
+      "offset": 10043,
       "length": 10,
       "value": "\"token:: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 9990,
+      "offset": 10116,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 10014,
+      "offset": 10140,
       "length": 21,
       "value": "\"Api-Token \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 10034,
+      "offset": 10160,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "Array",
-      "offset": 10072,
+      "offset": 10198,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 10742,
+      "offset": 10868,
       "length": 25,
       "value": "\"\/upload-reference-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 10848,
+      "offset": 10974,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 11572,
+      "offset": 11698,
       "length": 30,
       "value": "\"\/upload-authentication-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 11683,
+      "offset": 11809,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 12459,
+      "offset": 12585,
       "length": 22,
       "value": "\"Uploading back frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 12526,
+      "offset": 12652,
       "length": 20,
       "value": "\"\/upload-back-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 12627,
+      "offset": 12753,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 13869,
+      "offset": 13995,
       "length": 24,
       "value": "\"Uploading fingerprints\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 13938,
+      "offset": 14064,
       "length": 22,
       "value": "\"\/fingerprint-capture\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 14041,
+      "offset": 14167,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 15872,
+      "offset": 15998,
       "length": 24,
       "value": "\"Uploading fingerprints\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 15941,
+      "offset": 16067,
       "length": 22,
       "value": "\"\/fingerprint-capture\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 16044,
+      "offset": 16170,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 16785,
+      "offset": 16911,
       "length": 20,
       "value": "\"\/upload-face-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 16886,
+      "offset": 17012,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 17298,
+      "offset": 17424,
       "length": 11,
       "value": "\"error::! \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 17666,
+      "offset": 17792,
       "length": 25,
       "value": "\"\/upload-pose-face-frame\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 17772,
+      "offset": 17898,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 18469,
+      "offset": 18595,
       "length": 24,
       "value": "\"\/id-to-selfie-matching\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 18574,
+      "offset": 18700,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19231,
+      "offset": 19357,
       "length": 18,
       "value": "\"---- \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19248,
+      "offset": 19374,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19324,
+      "offset": 19450,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19399,
+      "offset": 19525,
       "length": 10,
       "value": "\"\/run-ocr\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19424,
+      "offset": 19550,
       "length": 10,
       "value": "\"token:: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19497,
+      "offset": 19623,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19521,
+      "offset": 19647,
       "length": 21,
       "value": "\"Api-Token \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 19541,
+      "offset": 19667,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "Array",
-      "offset": 19579,
+      "offset": 19705,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 20103,
+      "offset": 20229,
       "length": 10,
       "value": "\"\/run-ocr\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 20194,
+      "offset": 20320,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 20968,
+      "offset": 21094,
       "length": 20,
       "value": "\"\/verification-info\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 21069,
+      "offset": 21195,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 21844,
+      "offset": 21970,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 21893,
+      "offset": 22019,
       "length": 19,
       "value": "\"\/verify-name-city\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 21993,
+      "offset": 22119,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 22777,
+      "offset": 22903,
       "length": 23,
       "value": "\"\/verify-mobile-number\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 22881,
+      "offset": 23007,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 23511,
+      "offset": 23637,
       "length": 14,
       "value": "\"\/undertaking\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 23585,
+      "offset": 23711,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 23996,
+      "offset": 24122,
       "length": 9,
       "value": "\"error: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 24523,
+      "offset": 24649,
       "length": 27,
       "value": "\"\/sessions\/\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 24548,
+      "offset": 24674,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 24610,
+      "offset": 24736,
       "length": 12,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 25110,
+      "offset": 25236,
       "length": 11,
       "value": "\"error::: \""
     },
@@ -18619,42 +18633,42 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 578,
+      "offset": 590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 593,
+      "offset": 605,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 720,
+      "offset": 732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 811,
+      "offset": 823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 899,
+      "offset": 911,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utilities\/LotieSwiftUIView.swift",
       "kind": "StringLiteral",
-      "offset": 1132,
+      "offset": 1144,
       "length": 12,
       "value": "\"align_card\""
     },
