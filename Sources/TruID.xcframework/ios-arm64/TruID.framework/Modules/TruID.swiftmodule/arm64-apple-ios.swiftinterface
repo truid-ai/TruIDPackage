@@ -240,7 +240,7 @@ public enum ImageType {
   }
 }
 public enum FingersToScan : Swift.CaseIterable {
-  case LEFT_4, RIGHT_4, RIGHT_THUMB, LEFT_THUMB
+  case LEFT_4, RIGHT_4, RIGHT_THUMB, LEFT_THUMB, LEFT_4_RIGHT_4
   public static func == (a: TruID.FingersToScan, b: TruID.FingersToScan) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [TruID.FingersToScan]
