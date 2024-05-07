@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TruID
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TruID
 import AVFoundation
 import Alamofire
 import Combine
@@ -156,6 +155,20 @@ public struct SessionResult : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct FingerPrintsWSQ : Swift.Codable {
+  public var leftThumb: Swift.String
+  public var leftIndex: Swift.String
+  public var leftMiddle: Swift.String
+  public var leftRing: Swift.String
+  public var leftPinky: Swift.String
+  public var rightThumb: Swift.String
+  public var rightIndex: Swift.String
+  public var rightMiddle: Swift.String
+  public var rightRing: Swift.String
+  public var rightPinky: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct AgentRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -220,7 +233,7 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, verisys_verification: Swift.Bool = true, personal_information_verification: Swift.Bool = true, mobile_number_verification: Swift.Bool = true, undertaking: Swift.Bool = true, agent_verification: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, verisys_verification: Swift.Bool = true, personal_information_verification: Swift.Bool = true, mobile_number_verification: Swift.Bool = true, undertaking: Swift.Bool = true, agent_verification: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult, TruID.FingerPrintsWSQ) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 @_inheritsConvenienceInitializers @objc public class Finger : ObjectiveC.NSObject {
@@ -252,10 +265,10 @@ public enum FingersToScan : Swift.CaseIterable {
   }
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.ImageType : Swift.Equatable {}
