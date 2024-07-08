@@ -3945,7 +3945,10 @@
         "name": "TensorFlowLite",
         "printedName": "TensorFlowLite",
         "declKind": "Import",
-        "moduleName": "TruID"
+        "moduleName": "TruID",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4518,13 +4521,6 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5078,8 +5074,8 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLite",
-        "printedName": "TensorFlowLite",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
         "declKind": "Import",
         "moduleName": "TruID",
         "declAttributes": [
@@ -5088,15 +5084,15 @@
       },
       {
         "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "TruID"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
         "declKind": "Import",
         "moduleName": "TruID"
       },
@@ -7808,105 +7804,105 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 389,
       "length": 43,
       "value": "\"Please bring your face inside the circle.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "Array",
-      "offset": 574,
+      "offset": 542,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 689,
+      "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 731,
+      "offset": 699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 894,
+      "offset": 862,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 925,
+      "offset": 893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 963,
+      "offset": 931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1036,
+      "offset": 1004,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1069,
+      "offset": 1037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1103,
+      "offset": 1071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 1145,
+      "offset": 1113,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1177,
+      "offset": 1145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1248,
+      "offset": 1216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1270,
+      "offset": 1238,
       "length": 5,
       "value": "false"
     },
@@ -8375,14 +8371,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
       "kind": "FloatLiteral",
-      "offset": 369,
+      "offset": 368,
       "length": 5,
       "value": "127.5"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
       "kind": "FloatLiteral",
-      "offset": 409,
+      "offset": 408,
       "length": 5,
       "value": "127.5"
     },
