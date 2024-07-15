@@ -146,7 +146,6 @@ extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
