@@ -45,6 +45,34 @@ public enum FingersToScan : Swift.CaseIterable {
     get
   }
 }
+public struct ThumbData : Swift.Codable {
+  public let WSQ: Swift.String
+  public let ISO: Swift.String
+  public let NFIQ: Swift.Float
+  public let livenessScore: Swift.Float
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FourFingersData : Swift.Codable {
+  public let WSQ: [Swift.String]
+  public let ISO: [Swift.String]
+  public let NFIQ: [Swift.Float]
+  public let livenessScore: [Swift.Float]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HandData : Swift.Codable {
+  public var thumb: TruID.ThumbData?
+  public var fourFingers: TruID.FourFingersData?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FingerprintsData : Swift.Codable {
+  public var left: TruID.HandData
+  public var right: TruID.HandData
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension Foundation.Bundle {
   public class func current(dsoHandle: Swift.UnsafeRawPointer = #dsohandle) -> Foundation.Bundle
 }
@@ -113,7 +141,6 @@ public struct StepConfig : Swift.Codable {
   public let document_authenticity: Swift.Bool?
   public let document_backside_capture: Swift.Bool?
   public let finger_selection: Swift.Bool?
-  public let passive_face_liveness: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -129,6 +156,7 @@ public struct SessionResult : Swift.Codable {
   public let id: Swift.Int
   public let report: TruID.Report?
   public let status: Swift.String?
+  public let fingerprintsData: TruID.FingerprintsData?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -141,12 +169,6 @@ public struct CardHelpScreen : SwiftUI.View {
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
-}
-@_Concurrency.MainActor(unsafe) public struct CardScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -167,14 +189,19 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor(unsafe) public struct CardScreen : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
