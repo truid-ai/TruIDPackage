@@ -19,12 +19,21 @@
       }
     },
     {
-      "identity" : "t5airsnappackage",
+      "identity" : "tensorflowlitec",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/truid-ai/T5AirSnapPackage",
+      "location" : "https://github.com/kewlbear/TensorFlowLiteC.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "d42794b99f44f940d3983fc182a20c50258099d2"
+        "branch" : "master",
+        "revision" : "535e9f113b68e866a7e229e17f717d57cdc81be6"
+      }
+    },
+    {
+      "identity" : "tensorflowliteswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/TensorFlowLiteSwift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "73c997b5ee87ffba411048b51e886582358b33a3"
       }
     }
   ],
