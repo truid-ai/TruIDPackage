@@ -139,6 +139,21 @@ public struct CardHelpScreen : SwiftUI.View {
   public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID14CardHelpScreenV4bodyQrvp", 0) __
 }
+public enum FailureCases {
+  case userCanceled
+  case networkError
+  case timedOut
+  case jsonDecodingFailed
+  case unableToAccessLocation
+  public var message: Swift.String {
+    get
+  }
+  public static func == (a: TruID.FailureCases, b: TruID.FailureCases) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
@@ -167,7 +182,7 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
@@ -179,3 +194,5 @@ extension SwiftUI.View {
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
+extension TruID.FailureCases : Swift.Equatable {}
+extension TruID.FailureCases : Swift.Hashable {}

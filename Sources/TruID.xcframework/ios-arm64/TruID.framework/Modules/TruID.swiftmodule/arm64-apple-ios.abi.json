@@ -36,16 +36,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3907,6 +3897,367 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FailureCases",
+        "printedName": "FailureCases",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userCanceled",
+            "printedName": "userCanceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO12userCanceledyA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO12userCanceledyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO12networkErroryA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO12networkErroryA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
+            "name": "timedOut",
+            "printedName": "timedOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO8timedOutyA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO8timedOutyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonDecodingFailed",
+            "printedName": "jsonDecodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO18jsonDecodingFailedyA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO18jsonDecodingFailedyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToAccessLocation",
+            "printedName": "unableToAccessLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO22unableToAccessLocationyA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO22unableToAccessLocationyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID12FailureCasesO7messageSSvp",
+            "mangledName": "$s5TruID12FailureCasesO7messageSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID12FailureCasesO7messageSSvg",
+                "mangledName": "$s5TruID12FailureCasesO7messageSSvg",
+                "moduleName": "TruID",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FailureCases",
+                "printedName": "TruID.FailureCases",
+                "usr": "s:5TruID12FailureCasesO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FailureCases",
+                "printedName": "TruID.FailureCases",
+                "usr": "s:5TruID12FailureCasesO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5TruID12FailureCasesO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5TruID12FailureCasesO2eeoiySbAC_ACtFZ",
+            "moduleName": "TruID",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID12FailureCasesO9hashValueSivp",
+            "mangledName": "$s5TruID12FailureCasesO9hashValueSivp",
+            "moduleName": "TruID",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID12FailureCasesO9hashValueSivg",
+                "mangledName": "$s5TruID12FailureCasesO9hashValueSivg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5TruID12FailureCasesO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5TruID12FailureCasesO4hash4intoys6HasherVz_tF",
+            "moduleName": "TruID",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5TruID12FailureCasesO",
+        "mangledName": "$s5TruID12FailureCasesO",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -4528,6 +4879,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreFoundation",
         "printedName": "CoreFoundation",
         "declKind": "Import",
@@ -4552,13 +4913,20 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "TruID",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruID"
       },
       {
         "kind": "TypeDecl",
@@ -4749,7 +5117,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(TruID.FailureCases) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4758,16 +5126,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
                   }
                 ]
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcySSctcfc",
-            "mangledName": "$s5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcySSctcfc",
+            "usr": "s:5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcyAA12FailureCasesOctcfc",
+            "mangledName": "$s5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcyAA12FailureCasesOctcfc",
             "moduleName": "TruID",
             "declAttributes": [
               "Custom",
@@ -4838,8 +5206,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
         "declKind": "Import",
         "moduleName": "TruID",
         "declAttributes": [
@@ -4848,8 +5216,8 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "TruID"
       },
@@ -5649,14 +6017,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NonCameraScreenLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 238,
+      "offset": 236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NonCameraScreenLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 311,
+      "offset": 303,
       "length": 5,
       "value": "false"
     },
@@ -5673,13 +6041,6 @@
       "offset": 283,
       "length": 2,
       "value": "40"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NonCameraScreenLayout2.swift",
-      "kind": "BooleanLiteral",
-      "offset": 204,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CameraPreview\/CameraHandler.swift",
@@ -5705,77 +6066,77 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CameraPreview\/CameraHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 815,
+      "offset": 811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6484,
       "length": 13,
       "value": "\"Father Name\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 6525,
       "length": 15,
       "value": "\"Date of Birth\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6517,
+      "offset": 6568,
       "length": 15,
       "value": "\"Date of Issue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6561,
+      "offset": 6612,
       "length": 16,
       "value": "\"Date of Expiry\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6659,
       "length": 17,
       "value": "\"Identity Number\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6484,
       "length": 13,
       "value": "\"Father Name\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 6525,
       "length": 15,
       "value": "\"Date of Birth\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6517,
+      "offset": 6568,
       "length": 15,
       "value": "\"Date of Issue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6561,
+      "offset": 6612,
       "length": 16,
       "value": "\"Date of Expiry\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6659,
       "length": 17,
       "value": "\"Identity Number\""
     },
@@ -5845,126 +6206,126 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1215,
+      "offset": 1221,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1219,
+      "offset": 1225,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1231,
+      "offset": 1237,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1235,
+      "offset": 1241,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1252,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1250,
+      "offset": 1256,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 1262,
+      "offset": 1268,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1302,
+      "offset": 1308,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1343,
+      "offset": 1349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1793,
+      "offset": 1799,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1797,
+      "offset": 1803,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1809,
+      "offset": 1815,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1813,
+      "offset": 1819,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1824,
+      "offset": 1830,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1828,
+      "offset": 1834,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 1840,
+      "offset": 1846,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1987,
+      "offset": 1999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2028,
+      "offset": 2040,
       "length": 4,
       "value": "true"
     },
@@ -5974,6 +6335,13 @@
       "offset": 439,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/SDKMain.swift",
+      "kind": "BooleanLiteral",
+      "offset": 475,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/CameraScreenLayout.swift",
@@ -8001,126 +8369,126 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "StringLiteral",
-      "offset": 348,
+      "offset": 1191,
       "length": 30,
       "value": "\"https:\/\/release-api.truid.ai\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 410,
+      "offset": 1253,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 449,
+      "offset": 1292,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 484,
+      "offset": 1327,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 528,
+      "offset": 1371,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 576,
+      "offset": 1419,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 1463,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 662,
+      "offset": 1505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 706,
+      "offset": 1549,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 801,
+      "offset": 1644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 842,
+      "offset": 1685,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 904,
+      "offset": 1747,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 1751,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 920,
+      "offset": 1763,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 924,
+      "offset": 1767,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 935,
+      "offset": 1778,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 939,
+      "offset": 1782,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "FloatLiteral",
-      "offset": 951,
+      "offset": 1794,
       "length": 3,
       "value": "1.0"
     },
@@ -8134,21 +8502,21 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "StringLiteral",
-      "offset": 155,
+      "offset": 150,
       "length": 30,
       "value": "\"https:\/\/release-api.truid.ai\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1477,
+      "offset": 1484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "Array",
-      "offset": 1522,
+      "offset": 1530,
       "length": 2,
       "value": "[]"
     },
@@ -8379,56 +8747,56 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 394,
+      "offset": 390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 453,
+      "offset": 449,
       "length": 3,
       "value": "245"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 457,
+      "offset": 453,
       "length": 3,
       "value": "255"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 3,
+      "value": "245"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 517,
       "length": 3,
-      "value": "245"
+      "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 576,
       "length": 3,
-      "value": "255"
+      "value": "245"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 580,
       "length": 3,
-      "value": "245"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
-      "kind": "IntegerLiteral",
-      "offset": 584,
-      "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 644,
+      "offset": 640,
       "length": 3,
       "value": "1.0"
     },
@@ -8514,47 +8882,26 @@
       "kind": "StringLiteral",
       "offset": 721,
       "length": 6,
-      "value": "\"mytm\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
-      "length": 6,
       "value": "\"pill\""
     },
     {
       "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 986,
-      "length": 15,
-      "value": "\"sohaib-middle\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 860,
       "length": 14,
       "value": "\"temp_fingers\""
     },
     {
       "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
-      "length": 6,
-      "value": "\"test\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
+      "offset": 1002,
       "length": 11,
       "value": "\"truidLogo\""
     },
     {
       "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 1157,
       "length": 20,
       "value": "\"truid_logo-resized\""
     }
