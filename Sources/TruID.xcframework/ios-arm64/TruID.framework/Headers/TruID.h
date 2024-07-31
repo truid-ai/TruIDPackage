@@ -15,4 +15,7 @@ FOUNDATION_EXPORT const unsigned char TruIDVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TruID/PublicHeader.h>
 
-
+#import <TruID/PrefixHeader.pch>
+#import <TruID/OpenCVWrapper.h>
+#import <TruID/WSQWrapper.h>
+#import <TruID/FingerJet.h>
