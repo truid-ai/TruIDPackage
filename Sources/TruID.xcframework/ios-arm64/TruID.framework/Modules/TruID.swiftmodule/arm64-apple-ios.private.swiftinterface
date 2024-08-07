@@ -34,7 +34,6 @@ public enum FingersToScan : Swift.CaseIterable {
   case RIGHT_THUMB
   case LEFT_THUMB
   case LEFT_4_RIGHT_4
-  case ALL_10_FINGERS
   public static func == (a: TruID.FingersToScan, b: TruID.FingersToScan) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [TruID.FingersToScan]
@@ -145,6 +144,10 @@ public enum FailureCases {
   case timedOut
   case jsonDecodingFailed
   case unableToAccessLocation
+  case systemCanceled
+  case noSessionResult
+  case validationErrorFromServer
+  case sessionExpired
   public var message: Swift.String {
     get
   }
@@ -189,7 +192,6 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
