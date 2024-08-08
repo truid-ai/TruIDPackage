@@ -1,0 +1,11 @@
+framework module TruID {
+  umbrella header "TruID.h"
+  export *
+
+  module * { export * }
+}
+
+module TruID.Swift {
+  header "TruID-Swift.h"
+  requires objc
+}
