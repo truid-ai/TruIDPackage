@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'TensorFlowLiteTaskVision'
 
   # Specify the location of the framework
-  s.vendored_frameworks = 'TruID.xcframework'
+  s.vendored_frameworks = 'Sources/TruID.xcframework'
 
   # Frameworks
   s.frameworks = 'SwiftUI'
