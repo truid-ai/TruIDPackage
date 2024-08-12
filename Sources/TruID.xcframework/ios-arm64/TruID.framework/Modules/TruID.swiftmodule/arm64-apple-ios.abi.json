@@ -13589,16 +13589,86 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
       "kind": "FloatLiteral",
-      "offset": 370,
+      "offset": 375,
       "length": 5,
-      "value": "127.5"
+      "value": "0.485"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
       "kind": "FloatLiteral",
-      "offset": 410,
+      "offset": 381,
       "length": 5,
-      "value": "127.5"
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 388,
+      "length": 5,
+      "value": "0.456"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 394,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "0.406"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 407,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "0.229"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 457,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 464,
+      "length": 5,
+      "value": "0.224"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 477,
+      "length": 5,
+      "value": "0.225"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TensorFlowLiteSwift\/Interpreter.swift",
