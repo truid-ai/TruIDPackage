@@ -25,61 +25,6 @@ import _Concurrency
 import _MapKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Tensor : Swift.Equatable, Swift.Hashable {
-  public let name: Swift.String
-  public let dataType: TruID.Tensor.DataType
-  public let shape: TruID.Tensor.Shape
-  public let data: Foundation.Data
-  public let quantizationParameters: TruID.QuantizationParameters?
-  public static func == (a: TruID.Tensor, b: TruID.Tensor) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension TruID.Tensor {
-  public enum DataType : Swift.Equatable, Swift.Hashable {
-    case bool
-    case uInt8
-    case int16
-    case int32
-    case int64
-    case float16
-    case float32
-    case float64
-    public static func == (a: TruID.Tensor.DataType, b: TruID.Tensor.DataType) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-extension TruID.Tensor {
-  public struct Shape : Swift.Equatable, Swift.Hashable {
-    public let rank: Swift.Int
-    public let dimensions: [Swift.Int]
-    public init(_ dimensions: [Swift.Int])
-    public init(_ elements: Swift.Int...)
-    public static func == (a: TruID.Tensor.Shape, b: TruID.Tensor.Shape) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-extension TruID.Tensor.Shape : Swift.ExpressibleByArrayLiteral {
-  public init(arrayLiteral: Swift.Int...)
-  public typealias ArrayLiteralElement = Swift.Int
-}
-public struct QuantizationParameters : Swift.Equatable, Swift.Hashable {
-  public let scale: Swift.Float
-  public let zeroPoint: Swift.Int
-  public static func == (a: TruID.QuantizationParameters, b: TruID.QuantizationParameters) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public struct LivenessData : Swift.Codable {
   public var right4: Swift.Bool?
   public var left4: Swift.Bool?
@@ -220,6 +165,33 @@ public enum Runtime {
     get
   }
 }
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+public struct QuantizationParameters : Swift.Equatable, Swift.Hashable {
+  public let scale: Swift.Float
+  public let zeroPoint: Swift.Int
+  public static func == (a: TruID.QuantizationParameters, b: TruID.QuantizationParameters) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID21FingerprintHelpScreenV4bodyQrvp", 0) __
+}
+public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreFoundation.CGSize {
+}
+extension TruID.CGSizePreferenceKey {
+  public static func reduce(value _: inout CoreFoundation.CGSize, nextValue: () -> CoreFoundation.CGSize)
+}
+extension SwiftUI.View {
+  public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreFoundation.CGSize) -> Swift.Void) -> some SwiftUI.View where Key : TruID.CGSizePreferenceKey
+  
+}
 public enum SignatureRunnerError : Swift.Error, Swift.Equatable, Swift.Hashable {
   case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
   case invalidTensorDataType
@@ -246,8 +218,90 @@ extension TruID.SignatureRunnerError : Swift.CustomStringConvertible {
     get
   }
 }
-extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+public enum InterpreterError : Swift.Error, Swift.Equatable, Swift.Hashable {
+  case invalidTensorIndex(index: Swift.Int, maxIndex: Swift.Int)
+  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
+  case invalidTensorDataType
+  case failedToLoadModel
+  case failedToCreateInterpreter
+  case failedToResizeInputTensor(index: Swift.Int)
+  case failedToCopyDataToInputTensor
+  case failedToAllocateTensors
+  case allocateTensorsRequired
+  case invokeInterpreterRequired
+  case tensorFlowLiteError(Swift.String)
+  public static func == (a: TruID.InterpreterError, b: TruID.InterpreterError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension TruID.InterpreterError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension TruID.InterpreterError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_Concurrency.MainActor(unsafe) public struct TruidMain : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_liveness: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
+}
+public protocol Delegate : AnyObject {
+  typealias CDelegate = Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>
+  var cDelegate: Self.CDelegate { get }
+}
+public struct Tensor : Swift.Equatable, Swift.Hashable {
+  public let name: Swift.String
+  public let dataType: TruID.Tensor.DataType
+  public let shape: TruID.Tensor.Shape
+  public let data: Foundation.Data
+  public let quantizationParameters: TruID.QuantizationParameters?
+  public static func == (a: TruID.Tensor, b: TruID.Tensor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension TruID.Tensor {
+  public enum DataType : Swift.Equatable, Swift.Hashable {
+    case bool
+    case uInt8
+    case int16
+    case int32
+    case int64
+    case float16
+    case float32
+    case float64
+    public static func == (a: TruID.Tensor.DataType, b: TruID.Tensor.DataType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension TruID.Tensor {
+  public struct Shape : Swift.Equatable, Swift.Hashable {
+    public let rank: Swift.Int
+    public let dimensions: [Swift.Int]
+    public init(_ dimensions: [Swift.Int])
+    public init(_ elements: Swift.Int...)
+    public static func == (a: TruID.Tensor.Shape, b: TruID.Tensor.Shape) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension TruID.Tensor.Shape : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral: Swift.Int...)
+  public typealias ArrayLiteralElement = Swift.Int
 }
 @_hasMissingDesignatedInitializers final public class Interpreter {
   final public let options: TruID.Interpreter.Options?
@@ -287,55 +341,11 @@ extension TruID.Interpreter {
 }
 @available(*, deprecated, renamed: "Interpreter.Options")
 public typealias InterpreterOptions = TruID.Interpreter.Options
-@_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID21FingerprintHelpScreenV4bodyQrvp", 0) __
-}
-public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreFoundation.CGSize {
-}
-extension TruID.CGSizePreferenceKey {
-  public static func reduce(value _: inout CoreFoundation.CGSize, nextValue: () -> CoreFoundation.CGSize)
-}
-extension SwiftUI.View {
-  public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreFoundation.CGSize) -> Swift.Void) -> some SwiftUI.View where Key : TruID.CGSizePreferenceKey
-  
-}
-@_Concurrency.MainActor(unsafe) public struct TruidMain : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public init(fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_liveness: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
-}
-public enum InterpreterError : Swift.Error, Swift.Equatable, Swift.Hashable {
-  case invalidTensorIndex(index: Swift.Int, maxIndex: Swift.Int)
-  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
-  case invalidTensorDataType
-  case failedToLoadModel
-  case failedToCreateInterpreter
-  case failedToResizeInputTensor(index: Swift.Int)
-  case failedToCopyDataToInputTensor
-  case failedToAllocateTensors
-  case allocateTensorsRequired
-  case invokeInterpreterRequired
-  case tensorFlowLiteError(Swift.String)
-  public static func == (a: TruID.InterpreterError, b: TruID.InterpreterError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension TruID.InterpreterError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
-extension TruID.InterpreterError : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 @_hasMissingDesignatedInitializers final public class SignatureRunner {
   final public let signatureKey: Swift.String
@@ -352,16 +362,6 @@ extension TruID.InterpreterError : Swift.CustomStringConvertible {
   final public func resizeInput(named name: Swift.String, toShape shape: TruID.Tensor.Shape) throws
   final public func copy(_ data: Foundation.Data, toInputNamed name: Swift.String) throws
   final public func allocateTensors() throws
-}
-@_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
-}
-public protocol Delegate : AnyObject {
-  typealias CDelegate = Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>
-  var cDelegate: Self.CDelegate { get }
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
