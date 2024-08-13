@@ -8953,6 +8953,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 389,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 429,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/Strategies\/LeftThumbStrategy.swift",
       "kind": "StringLiteral",
       "offset": 448,
