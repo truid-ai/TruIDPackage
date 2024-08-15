@@ -43,6 +43,7 @@ Or:
 
 1. Download the `xcframework` from the releases, or by downloading this repository as zip ([click here to download zip](https://github.com/truid-ai/TruIDPackage/archive/refs/heads/main.zip))
 2. Drag and drop the framework to your project and start using TruID's SDK for identity verification.
+3. Embed the framework in your project.
 
 ## Sample Code
 
