@@ -4,6 +4,7 @@
 import AVFoundation
 import Accelerate
 import CommonCrypto
+import CommonCrypto
 import CoreFoundation
 import CoreGraphics
 import CoreImage
@@ -12,6 +13,7 @@ import CoreMedia
 import CoreVideo
 import DeveloperToolsSupport
 import Foundation
+import MapKit
 import MapKit
 import QuartzCore
 import Swift
@@ -109,6 +111,7 @@ public struct StepConfig : Swift.Codable {
   public let document_backside_capture: Swift.Bool?
   public let finger_selection: Swift.Bool?
   public let passive_face_liveness: Swift.Bool?
+  public let passive_face_liveness: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -162,6 +165,12 @@ extension UIKit.UIDevice {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
+@_Concurrency.MainActor(unsafe) public struct CardScreen : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
+}
 @_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
@@ -182,15 +191,19 @@ extension SwiftUI.View {
     get
   }
   @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
+  @_Concurrency.MainActor(unsafe) public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
+extension TruID.FailureCases : Swift.Equatable {}
+extension TruID.FailureCases : Swift.Hashable {}
 extension TruID.FailureCases : Swift.Equatable {}
 extension TruID.FailureCases : Swift.Hashable {}
