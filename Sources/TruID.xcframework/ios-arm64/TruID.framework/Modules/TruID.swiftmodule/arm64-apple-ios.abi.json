@@ -8069,7 +8069,7 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 330,
+      "offset": 327,
       "length": 5,
       "value": "false"
     },
@@ -8083,275 +8083,128 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 463,
       "length": 39,
       "value": "\"Please bring your card inside the box\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 443,
+      "offset": 551,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 486,
+      "offset": 594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 632,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 567,
+      "offset": 675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 616,
+      "offset": 724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 712,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 762,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 802,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 847,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 883,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 916,
+      "offset": 820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 958,
+      "offset": 870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1025,
+      "offset": 967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1061,
+      "offset": 1012,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1048,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1081,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1208,
+      "offset": 1373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1236,
+      "offset": 1401,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3956,
-      "length": 45,
-      "value": "\"Card Handler - captureOutput: Buffer is nil\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4119,
-      "length": 68,
-      "value": "\"Card Handler - captureOutput: Unable to create CGImage from buffer\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4564,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5433,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5466,
-      "length": 3,
-      "value": "2.5"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5542,
-      "length": 4,
-      "value": "1.50"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5573,
-      "length": 4,
-      "value": "0.75"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5656,
-      "length": 4,
-      "value": "1.65"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5727,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6312,
-      "length": 30,
-      "value": "\"Please bring the card closer\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6418,
-      "length": 27,
-      "value": "\"Please move the card back\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6517,
-      "length": 21,
-      "value": "\"Keep the card still\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6612,
-      "length": 39,
-      "value": "\"Please bring your card inside the box\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6919,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7156,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7390,
-      "length": 66,
-      "value": "\"Card Handler - detectRectangle: Unable to crop to card detection\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7971,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8492,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8677,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8827,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "Dictionary",
-      "offset": 8959,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utils\/LotieSwiftUIView.swift",
@@ -8615,7 +8468,7 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NavigationButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1230,
+      "offset": 1160,
       "length": 5,
       "value": "false"
     },
@@ -8629,14 +8482,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 768,
+      "offset": 769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "Array",
-      "offset": 814,
+      "offset": 815,
       "length": 2,
       "value": "[]"
     },
@@ -9010,6 +8863,13 @@
       "offset": 218,
       "length": 4,
       "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/truid\/Library\/Developer\/Xcode\/DerivedData\/TruID-bhsfyytiesftwyfsaofgotadrnvy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruID\/IntermediateBuildFilesPath\/TruID.build\/Release-iphoneos\/TruID.build\/DerivedSources\/GeneratedAssetSymbols.swift",
