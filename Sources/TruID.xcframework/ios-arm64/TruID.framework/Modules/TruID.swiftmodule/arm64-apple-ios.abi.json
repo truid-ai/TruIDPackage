@@ -6256,14 +6256,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 1958,
+      "offset": 1950,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2004,
+      "offset": 1996,
       "length": 5,
       "value": "false"
     },
@@ -8622,91 +8622,91 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 728,
       "length": 31,
       "value": "\"ai.truid.TruID.inferencequeue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 878,
+      "offset": 828,
       "length": 43,
       "value": "\"ai.truid.TruID.fingerprintProcessingQueue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 967,
+      "offset": 917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1160,
+      "offset": 1110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1206,
+      "offset": 1156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1262,
+      "offset": 1212,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1285,
+      "offset": 1235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1518,
+      "offset": 1468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 1624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 1666,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "BooleanLiteral",
       "offset": 1986,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2005,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2036,
       "length": 5,
       "value": "false"
     },
@@ -8818,21 +8818,21 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 344,
+      "offset": 341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 389,
+      "offset": 386,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 429,
+      "offset": 426,
       "length": 4,
       "value": "0.35"
     },
