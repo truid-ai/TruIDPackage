@@ -144,6 +144,7 @@ public enum FailureCases {
   case noSessionResult
   case validationErrorFromServer
   case sessionExpired
+  case cannotLoadModels
   public var message: Swift.String {
     get
   }

@@ -4210,6 +4210,43 @@
           },
           {
             "kind": "Var",
+            "name": "cannotLoadModels",
+            "printedName": "cannotLoadModels",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO16cannotLoadModelsyA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO16cannotLoadModelsyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -8538,84 +8575,84 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 538,
+      "offset": 534,
       "length": 5,
       "value": "0.485"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 544,
+      "offset": 540,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 551,
+      "offset": 547,
       "length": 5,
       "value": "0.456"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 557,
+      "offset": 553,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 564,
+      "offset": 560,
       "length": 5,
       "value": "0.406"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 570,
+      "offset": 566,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 614,
+      "offset": 610,
       "length": 5,
       "value": "0.229"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 620,
+      "offset": 616,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 627,
+      "offset": 623,
       "length": 5,
       "value": "0.224"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 633,
+      "offset": 629,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 640,
+      "offset": 636,
       "length": 5,
       "value": "0.225"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
       "kind": "FloatLiteral",
-      "offset": 646,
+      "offset": 642,
       "length": 5,
       "value": "255.0"
     },
