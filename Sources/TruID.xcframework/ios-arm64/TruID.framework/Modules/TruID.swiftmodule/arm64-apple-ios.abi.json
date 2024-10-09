@@ -10531,23 +10531,9 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/HelpScreens\/FaceHelpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 334,
+      "offset": 330,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/HelpScreens\/FaceHelpScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3032,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/HelpScreens\/FaceHelpScreen.swift",
-      "kind": "Array",
-      "offset": 3055,
-      "length": 278,
-      "value": "[[(\"animation\", \"align_face\"), (\"text\", \"Make sure all parts of your face are clearly visible. Don't wear any accessories that might cover your face. Kepp your face evenly lit and avoid direct light.\")], [(\"animation\", \"face_left\"), (\"text\", \"please look right until you hear a bell\")]]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/RegressorModel.swift",
