@@ -10559,21 +10559,21 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 341,
+      "offset": 331,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 386,
+      "offset": 376,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 426,
+      "offset": 416,
       "length": 4,
       "value": "0.35"
     },
