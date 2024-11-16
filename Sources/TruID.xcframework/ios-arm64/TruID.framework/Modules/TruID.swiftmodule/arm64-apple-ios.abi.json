@@ -534,1864 +534,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "StatusValue",
-        "printedName": "StatusValue",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "string",
-            "printedName": "string",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(TruID.StatusValue.Type) -> (Swift.String) -> TruID.StatusValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> TruID.StatusValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "TruID.StatusValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:5TruID11StatusValueO6stringyACSScACmF",
-            "mangledName": "$s5TruID11StatusValueO6stringyACSScACmF",
-            "moduleName": "TruID"
-          },
-          {
-            "kind": "Var",
-            "name": "bool",
-            "printedName": "bool",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(TruID.StatusValue.Type) -> (Swift.Bool) -> TruID.StatusValue",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> TruID.StatusValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "TruID.StatusValue.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:5TruID11StatusValueO4boolyACSbcACmF",
-            "mangledName": "$s5TruID11StatusValueO4boolyACSbcACmF",
-            "moduleName": "TruID"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "StatusValue",
-                "printedName": "TruID.StatusValue",
-                "usr": "s:5TruID11StatusValueO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID11StatusValueO4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID11StatusValueO4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID11StatusValueO6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID11StatusValueO6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "value",
-            "printedName": "value",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID11StatusValueO5valueSbvp",
-            "mangledName": "$s5TruID11StatusValueO5valueSbvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID11StatusValueO5valueSbvg",
-                "mangledName": "$s5TruID11StatusValueO5valueSbvg",
-                "moduleName": "TruID",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:5TruID11StatusValueO",
-        "mangledName": "$s5TruID11StatusValueO",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ReportStep",
-        "printedName": "ReportStep",
+        "name": "ResponseResult",
+        "printedName": "ResponseResult",
         "children": [
           {
             "kind": "Var",
             "name": "status",
             "printedName": "status",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.StatusValue?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusValue",
-                    "printedName": "TruID.StatusValue",
-                    "usr": "s:5TruID11StatusValueO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID10ReportStepV6statusAA11StatusValueOSgvp",
-            "mangledName": "$s5TruID10ReportStepV6statusAA11StatusValueOSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.StatusValue?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID10ReportStepV6statusAA11StatusValueOSgvg",
-                "mangledName": "$s5TruID10ReportStepV6statusAA11StatusValueOSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ReportStep",
-                "printedName": "TruID.ReportStep",
-                "usr": "s:5TruID10ReportStepV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID10ReportStepV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID10ReportStepV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID10ReportStepV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID10ReportStepV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID10ReportStepV",
-        "mangledName": "$s5TruID10ReportStepV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ExtractedData",
-        "printedName": "ExtractedData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "Name",
-            "printedName": "Name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV4NameSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV4NameSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV4NameSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV4NameSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "Gender",
-            "printedName": "Gender",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV6GenderSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV6GenderSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV6GenderSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV6GenderSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "FatherName",
-            "printedName": "FatherName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV10FatherNameSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV10FatherNameSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV10FatherNameSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV10FatherNameSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "DateOfBirth",
-            "printedName": "DateOfBirth",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV11DateOfBirthSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV11DateOfBirthSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV11DateOfBirthSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV11DateOfBirthSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "DateOfIssue",
-            "printedName": "DateOfIssue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV11DateOfIssueSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV11DateOfIssueSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV11DateOfIssueSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV11DateOfIssueSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "DateOfExpiry",
-            "printedName": "DateOfExpiry",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV12DateOfExpirySSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV12DateOfExpirySSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV12DateOfExpirySSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV12DateOfExpirySSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "IdentityNumber",
-            "printedName": "IdentityNumber",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ExtractedDataV14IdentityNumberSSSgvp",
-            "mangledName": "$s5TruID13ExtractedDataV14IdentityNumberSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ExtractedDataV14IdentityNumberSSSgvg",
-                "mangledName": "$s5TruID13ExtractedDataV14IdentityNumberSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ExtractedData",
-                "printedName": "TruID.ExtractedData",
-                "usr": "s:5TruID13ExtractedDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID13ExtractedDataV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID13ExtractedDataV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID13ExtractedDataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID13ExtractedDataV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID13ExtractedDataV",
-        "mangledName": "$s5TruID13ExtractedDataV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DocumentCaptureReport",
-        "printedName": "DocumentCaptureReport",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "extracted_data",
-            "printedName": "extracted_data",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ExtractedData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExtractedData",
-                    "printedName": "TruID.ExtractedData",
-                    "usr": "s:5TruID13ExtractedDataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID21DocumentCaptureReportV14extracted_dataAA13ExtractedDataVSgvp",
-            "mangledName": "$s5TruID21DocumentCaptureReportV14extracted_dataAA13ExtractedDataVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ExtractedData?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExtractedData",
-                        "printedName": "TruID.ExtractedData",
-                        "usr": "s:5TruID13ExtractedDataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID21DocumentCaptureReportV14extracted_dataAA13ExtractedDataVSgvg",
-                "mangledName": "$s5TruID21DocumentCaptureReportV14extracted_dataAA13ExtractedDataVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentCaptureReport",
-                "printedName": "TruID.DocumentCaptureReport",
-                "usr": "s:5TruID21DocumentCaptureReportV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID21DocumentCaptureReportV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID21DocumentCaptureReportV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID21DocumentCaptureReportV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID21DocumentCaptureReportV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID21DocumentCaptureReportV",
-        "mangledName": "$s5TruID21DocumentCaptureReportV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DocumentCaptureReportStep",
-        "printedName": "DocumentCaptureReportStep",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "status",
-            "printedName": "status",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.StatusValue?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusValue",
-                    "printedName": "TruID.StatusValue",
-                    "usr": "s:5TruID11StatusValueO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID25DocumentCaptureReportStepV6statusAA11StatusValueOSgvp",
-            "mangledName": "$s5TruID25DocumentCaptureReportStepV6statusAA11StatusValueOSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.StatusValue?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusValue",
-                        "printedName": "TruID.StatusValue",
-                        "usr": "s:5TruID11StatusValueO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID25DocumentCaptureReportStepV6statusAA11StatusValueOSgvg",
-                "mangledName": "$s5TruID25DocumentCaptureReportStepV6statusAA11StatusValueOSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "report",
-            "printedName": "report",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.DocumentCaptureReport?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DocumentCaptureReport",
-                    "printedName": "TruID.DocumentCaptureReport",
-                    "usr": "s:5TruID21DocumentCaptureReportV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID25DocumentCaptureReportStepV6reportAA0cdE0VSgvp",
-            "mangledName": "$s5TruID25DocumentCaptureReportStepV6reportAA0cdE0VSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.DocumentCaptureReport?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DocumentCaptureReport",
-                        "printedName": "TruID.DocumentCaptureReport",
-                        "usr": "s:5TruID21DocumentCaptureReportV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID25DocumentCaptureReportStepV6reportAA0cdE0VSgvg",
-                "mangledName": "$s5TruID25DocumentCaptureReportStepV6reportAA0cdE0VSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentCaptureReportStep",
-                "printedName": "TruID.DocumentCaptureReportStep",
-                "usr": "s:5TruID25DocumentCaptureReportStepV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID25DocumentCaptureReportStepV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID25DocumentCaptureReportStepV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID25DocumentCaptureReportStepV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID25DocumentCaptureReportStepV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID25DocumentCaptureReportStepV",
-        "mangledName": "$s5TruID25DocumentCaptureReportStepV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Report",
-        "printedName": "Report",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "document_authenticity",
-            "printedName": "document_authenticity",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReportStep",
-                    "printedName": "TruID.ReportStep",
-                    "usr": "s:5TruID10ReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV21document_authenticityAA0C4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV21document_authenticityAA0C4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReportStep",
-                        "printedName": "TruID.ReportStep",
-                        "usr": "s:5TruID10ReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV21document_authenticityAA0C4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV21document_authenticityAA0C4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "document_capture",
-            "printedName": "document_capture",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.DocumentCaptureReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DocumentCaptureReportStep",
-                    "printedName": "TruID.DocumentCaptureReportStep",
-                    "usr": "s:5TruID25DocumentCaptureReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV16document_captureAA015DocumentCaptureC4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV16document_captureAA015DocumentCaptureC4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.DocumentCaptureReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DocumentCaptureReportStep",
-                        "printedName": "TruID.DocumentCaptureReportStep",
-                        "usr": "s:5TruID25DocumentCaptureReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV16document_captureAA015DocumentCaptureC4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV16document_captureAA015DocumentCaptureC4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "face_liveness",
-            "printedName": "face_liveness",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReportStep",
-                    "printedName": "TruID.ReportStep",
-                    "usr": "s:5TruID10ReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV13face_livenessAA0C4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV13face_livenessAA0C4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReportStep",
-                        "printedName": "TruID.ReportStep",
-                        "usr": "s:5TruID10ReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV13face_livenessAA0C4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV13face_livenessAA0C4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "id_to_selfie_matching",
-            "printedName": "id_to_selfie_matching",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReportStep",
-                    "printedName": "TruID.ReportStep",
-                    "usr": "s:5TruID10ReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV21id_to_selfie_matchingAA0C4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV21id_to_selfie_matchingAA0C4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReportStep",
-                        "printedName": "TruID.ReportStep",
-                        "usr": "s:5TruID10ReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV21id_to_selfie_matchingAA0C4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV21id_to_selfie_matchingAA0C4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "data_extraction",
-            "printedName": "data_extraction",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReportStep",
-                    "printedName": "TruID.ReportStep",
-                    "usr": "s:5TruID10ReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV15data_extractionAA0C4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV15data_extractionAA0C4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReportStep",
-                        "printedName": "TruID.ReportStep",
-                        "usr": "s:5TruID10ReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV15data_extractionAA0C4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV15data_extractionAA0C4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "fingerprint_capture",
-            "printedName": "fingerprint_capture",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.ReportStep?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReportStep",
-                    "printedName": "TruID.ReportStep",
-                    "usr": "s:5TruID10ReportStepV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ReportV19fingerprint_captureAA0C4StepVSgvp",
-            "mangledName": "$s5TruID6ReportV19fingerprint_captureAA0C4StepVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.ReportStep?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReportStep",
-                        "printedName": "TruID.ReportStep",
-                        "usr": "s:5TruID10ReportStepV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ReportV19fingerprint_captureAA0C4StepVSgvg",
-                "mangledName": "$s5TruID6ReportV19fingerprint_captureAA0C4StepVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Report",
-                "printedName": "TruID.Report",
-                "usr": "s:5TruID6ReportV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID6ReportV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID6ReportV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID6ReportV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID6ReportV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID6ReportV",
-        "mangledName": "$s5TruID6ReportV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Configuration",
-        "printedName": "Configuration",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "config",
-            "printedName": "config",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[TruID.Config]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Config",
-                    "printedName": "TruID.Config",
-                    "usr": "s:5TruID6ConfigV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13ConfigurationV6configSayAA6ConfigVGvp",
-            "mangledName": "$s5TruID13ConfigurationV6configSayAA6ConfigVGvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[TruID.Config]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Config",
-                        "printedName": "TruID.Config",
-                        "usr": "s:5TruID6ConfigV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13ConfigurationV6configSayAA6ConfigVGvg",
-                "mangledName": "$s5TruID13ConfigurationV6configSayAA6ConfigVGvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Configuration",
-                "printedName": "TruID.Configuration",
-                "usr": "s:5TruID13ConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID13ConfigurationV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID13ConfigurationV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID13ConfigurationV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID13ConfigurationV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID13ConfigurationV",
-        "mangledName": "$s5TruID13ConfigurationV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Config",
-        "printedName": "Config",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "path",
-            "printedName": "path",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ConfigV4pathSSSgvp",
-            "mangledName": "$s5TruID6ConfigV4pathSSSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ConfigV4pathSSSgvg",
-                "mangledName": "$s5TruID6ConfigV4pathSSSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2401,8 +550,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID6ConfigV4typeSSvp",
-            "mangledName": "$s5TruID6ConfigV4typeSSvp",
+            "usr": "s:5TruID14ResponseResultV6statusSSvp",
+            "mangledName": "$s5TruID14ResponseResultV6statusSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2424,8 +573,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID6ConfigV4typeSSvg",
-                "mangledName": "$s5TruID6ConfigV4typeSSvg",
+                "usr": "s:5TruID14ResponseResultV6statusSSvg",
+                "mangledName": "$s5TruID14ResponseResultV6statusSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2434,27 +583,19 @@
           },
           {
             "kind": "Var",
-            "name": "required",
-            "printedName": "required",
+            "name": "confidence",
+            "printedName": "confidence",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID6ConfigV8requiredSbSgvp",
-            "mangledName": "$s5TruID6ConfigV8requiredSbSgvp",
+            "usr": "s:5TruID14ResponseResultV10confidenceSdvp",
+            "mangledName": "$s5TruID14ResponseResultV10confidenceSdvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2470,82 +611,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID6ConfigV8requiredSbSgvg",
-                "mangledName": "$s5TruID6ConfigV8requiredSbSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "step_config",
-            "printedName": "step_config",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.StepConfig?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StepConfig",
-                    "printedName": "TruID.StepConfig",
-                    "usr": "s:5TruID10StepConfigV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID6ConfigV11step_configAA04StepC0VSgvp",
-            "mangledName": "$s5TruID6ConfigV11step_configAA04StepC0VSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.StepConfig?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StepConfig",
-                        "printedName": "TruID.StepConfig",
-                        "usr": "s:5TruID10StepConfigV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID6ConfigV11step_configAA04StepC0VSgvg",
-                "mangledName": "$s5TruID6ConfigV11step_configAA04StepC0VSgvg",
+                "usr": "s:5TruID14ResponseResultV10confidenceSdvg",
+                "mangledName": "$s5TruID14ResponseResultV10confidenceSdvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2559,9 +632,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Config",
-                "printedName": "TruID.Config",
-                "usr": "s:5TruID6ConfigV"
+                "name": "ResponseResult",
+                "printedName": "TruID.ResponseResult",
+                "usr": "s:5TruID14ResponseResultV"
               },
               {
                 "kind": "TypeNominal",
@@ -2571,8 +644,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID6ConfigV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID6ConfigV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:5TruID14ResponseResultV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID14ResponseResultV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -2596,8 +669,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TruID6ConfigV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID6ConfigV6encode2toys7Encoder_p_tKF",
+            "usr": "s:5TruID14ResponseResultV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID14ResponseResultV6encode2toys7Encoder_p_tKF",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -2605,8 +678,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TruID6ConfigV",
-        "mangledName": "$s5TruID6ConfigV",
+        "usr": "s:5TruID14ResponseResultV",
+        "mangledName": "$s5TruID14ResponseResultV",
         "moduleName": "TruID",
         "declAttributes": [
           "AccessControl"
@@ -2630,32 +703,24 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "StepConfig",
-        "printedName": "StepConfig",
+        "name": "FaceQualityChecks",
+        "printedName": "FaceQualityChecks",
         "children": [
           {
             "kind": "Var",
-            "name": "id_to_selfie_matching",
-            "printedName": "id_to_selfie_matching",
+            "name": "face_detected",
+            "printedName": "face_detected",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV21id_to_selfie_matchingSbSgvp",
-            "mangledName": "$s5TruID10StepConfigV21id_to_selfie_matchingSbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV13face_detectedSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV13face_detectedSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2671,22 +736,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV21id_to_selfie_matchingSbSgvg",
-                "mangledName": "$s5TruID10StepConfigV21id_to_selfie_matchingSbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV13face_detectedSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV13face_detectedSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2695,27 +752,19 @@
           },
           {
             "kind": "Var",
-            "name": "extract_data",
-            "printedName": "extract_data",
+            "name": "face_exposure",
+            "printedName": "face_exposure",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV12extract_dataSbSgvp",
-            "mangledName": "$s5TruID10StepConfigV12extract_dataSbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV13face_exposureSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV13face_exposureSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2731,22 +780,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV12extract_dataSbSgvg",
-                "mangledName": "$s5TruID10StepConfigV12extract_dataSbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV13face_exposureSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV13face_exposureSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2755,27 +796,19 @@
           },
           {
             "kind": "Var",
-            "name": "document_authenticity",
-            "printedName": "document_authenticity",
+            "name": "bg_glare",
+            "printedName": "bg_glare",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV21document_authenticitySbSgvp",
-            "mangledName": "$s5TruID10StepConfigV21document_authenticitySbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV8bg_glareSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV8bg_glareSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2791,22 +824,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV21document_authenticitySbSgvg",
-                "mangledName": "$s5TruID10StepConfigV21document_authenticitySbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV8bg_glareSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV8bg_glareSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2815,27 +840,19 @@
           },
           {
             "kind": "Var",
-            "name": "document_backside_capture",
-            "printedName": "document_backside_capture",
+            "name": "covered_face",
+            "printedName": "covered_face",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV25document_backside_captureSbSgvp",
-            "mangledName": "$s5TruID10StepConfigV25document_backside_captureSbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV12covered_faceSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV12covered_faceSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2851,22 +868,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV25document_backside_captureSbSgvg",
-                "mangledName": "$s5TruID10StepConfigV25document_backside_captureSbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV12covered_faceSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV12covered_faceSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2875,27 +884,19 @@
           },
           {
             "kind": "Var",
-            "name": "finger_selection",
-            "printedName": "finger_selection",
+            "name": "sun_glasses",
+            "printedName": "sun_glasses",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV16finger_selectionSbSgvp",
-            "mangledName": "$s5TruID10StepConfigV16finger_selectionSbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV11sun_glassesSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV11sun_glassesSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2911,22 +912,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV16finger_selectionSbSgvg",
-                "mangledName": "$s5TruID10StepConfigV16finger_selectionSbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV11sun_glassesSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV11sun_glassesSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2935,27 +928,19 @@
           },
           {
             "kind": "Var",
-            "name": "passive_face_liveness",
-            "printedName": "passive_face_liveness",
+            "name": "expression",
+            "printedName": "expression",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID10StepConfigV21passive_face_livenessSbSgvp",
-            "mangledName": "$s5TruID10StepConfigV21passive_face_livenessSbSgvp",
+            "usr": "s:5TruID17FaceQualityChecksV10expressionSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV10expressionSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -2971,22 +956,58 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID10StepConfigV21passive_face_livenessSbSgvg",
-                "mangledName": "$s5TruID10StepConfigV21passive_face_livenessSbSgvg",
+                "usr": "s:5TruID17FaceQualityChecksV10expressionSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV10expressionSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eyes_closed",
+            "printedName": "eyes_closed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID17FaceQualityChecksV11eyes_closedSSvp",
+            "mangledName": "$s5TruID17FaceQualityChecksV11eyes_closedSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID17FaceQualityChecksV11eyes_closedSSvg",
+                "mangledName": "$s5TruID17FaceQualityChecksV11eyes_closedSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3000,9 +1021,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "StepConfig",
-                "printedName": "TruID.StepConfig",
-                "usr": "s:5TruID10StepConfigV"
+                "name": "FaceQualityChecks",
+                "printedName": "TruID.FaceQualityChecks",
+                "usr": "s:5TruID17FaceQualityChecksV"
               },
               {
                 "kind": "TypeNominal",
@@ -3012,8 +1033,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID10StepConfigV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID10StepConfigV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:5TruID17FaceQualityChecksV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID17FaceQualityChecksV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -3037,8 +1058,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TruID10StepConfigV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID10StepConfigV6encode2toys7Encoder_p_tKF",
+            "usr": "s:5TruID17FaceQualityChecksV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID17FaceQualityChecksV6encode2toys7Encoder_p_tKF",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -3046,8 +1067,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TruID10StepConfigV",
-        "mangledName": "$s5TruID10StepConfigV",
+        "usr": "s:5TruID17FaceQualityChecksV",
+        "mangledName": "$s5TruID17FaceQualityChecksV",
         "moduleName": "TruID",
         "declAttributes": [
           "AccessControl"
@@ -3071,13 +1092,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Session",
-        "printedName": "Session",
+        "name": "ResponseModel",
+        "printedName": "ResponseModel",
         "children": [
           {
             "kind": "Var",
-            "name": "id",
-            "printedName": "id",
+            "name": "status",
+            "printedName": "status",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3087,8 +1108,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID7SessionV2idSivp",
-            "mangledName": "$s5TruID7SessionV2idSivp",
+            "usr": "s:5TruID13ResponseModelV6statusSivp",
+            "mangledName": "$s5TruID13ResponseModelV6statusSivp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -3110,8 +1131,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID7SessionV2idSivg",
-                "mangledName": "$s5TruID7SessionV2idSivg",
+                "usr": "s:5TruID13ResponseModelV6statusSivg",
+                "mangledName": "$s5TruID13ResponseModelV6statusSivg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3120,8 +1141,8 @@
           },
           {
             "kind": "Var",
-            "name": "status",
-            "printedName": "status",
+            "name": "icaoStatus",
+            "printedName": "icaoStatus",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3139,8 +1160,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID7SessionV6statusSSSgvp",
-            "mangledName": "$s5TruID7SessionV6statusSSSgvp",
+            "usr": "s:5TruID13ResponseModelV10icaoStatusSSSgvp",
+            "mangledName": "$s5TruID13ResponseModelV10icaoStatusSSSgvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -3170,8 +1191,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID7SessionV6statusSSSgvg",
-                "mangledName": "$s5TruID7SessionV6statusSSSgvg",
+                "usr": "s:5TruID13ResponseModelV10icaoStatusSSSgvg",
+                "mangledName": "$s5TruID13ResponseModelV10icaoStatusSSSgvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3180,259 +1201,8 @@
           },
           {
             "kind": "Var",
-            "name": "configuration",
-            "printedName": "configuration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Configuration",
-                "printedName": "TruID.Configuration",
-                "usr": "s:5TruID13ConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID7SessionV13configurationAA13ConfigurationVvp",
-            "mangledName": "$s5TruID7SessionV13configurationAA13ConfigurationVvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Configuration",
-                    "printedName": "TruID.Configuration",
-                    "usr": "s:5TruID13ConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID7SessionV13configurationAA13ConfigurationVvg",
-                "mangledName": "$s5TruID7SessionV13configurationAA13ConfigurationVvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Session",
-                "printedName": "TruID.Session",
-                "usr": "s:5TruID7SessionV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID7SessionV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID7SessionV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID7SessionV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID7SessionV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID7SessionV",
-        "mangledName": "$s5TruID7SessionV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SessionResult",
-        "printedName": "SessionResult",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13SessionResultV2idSivp",
-            "mangledName": "$s5TruID13SessionResultV2idSivp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13SessionResultV2idSivg",
-                "mangledName": "$s5TruID13SessionResultV2idSivg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "report",
-            "printedName": "report",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TruID.Report?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Report",
-                    "printedName": "TruID.Report",
-                    "usr": "s:5TruID6ReportV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID13SessionResultV6reportAA6ReportVSgvp",
-            "mangledName": "$s5TruID13SessionResultV6reportAA6ReportVSgvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "TruID.Report?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Report",
-                        "printedName": "TruID.Report",
-                        "usr": "s:5TruID6ReportV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID13SessionResultV6reportAA6ReportVSgvg",
-                "mangledName": "$s5TruID13SessionResultV6reportAA6ReportVSgvg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "status",
-            "printedName": "status",
+            "name": "error",
+            "printedName": "error",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3450,8 +1220,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID13SessionResultV6statusSSSgvp",
-            "mangledName": "$s5TruID13SessionResultV6statusSSSgvp",
+            "usr": "s:5TruID13ResponseModelV5errorSSSgvp",
+            "mangledName": "$s5TruID13ResponseModelV5errorSSSgvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -3481,8 +1251,128 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID13SessionResultV6statusSSSgvg",
-                "mangledName": "$s5TruID13SessionResultV6statusSSSgvg",
+                "usr": "s:5TruID13ResponseModelV5errorSSSgvg",
+                "mangledName": "$s5TruID13ResponseModelV5errorSSSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruID.ResponseResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseResult",
+                    "printedName": "TruID.ResponseResult",
+                    "usr": "s:5TruID14ResponseResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID13ResponseModelV6resultAA0C6ResultVSgvp",
+            "mangledName": "$s5TruID13ResponseModelV6resultAA0C6ResultVSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruID.ResponseResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseResult",
+                        "printedName": "TruID.ResponseResult",
+                        "usr": "s:5TruID14ResponseResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID13ResponseModelV6resultAA0C6ResultVSgvg",
+                "mangledName": "$s5TruID13ResponseModelV6resultAA0C6ResultVSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceQualityChecks",
+            "printedName": "faceQualityChecks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruID.FaceQualityChecks?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceQualityChecks",
+                    "printedName": "TruID.FaceQualityChecks",
+                    "usr": "s:5TruID17FaceQualityChecksV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvp",
+            "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruID.FaceQualityChecks?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceQualityChecks",
+                        "printedName": "TruID.FaceQualityChecks",
+                        "usr": "s:5TruID17FaceQualityChecksV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvg",
+                "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3496,9 +1386,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SessionResult",
-                "printedName": "TruID.SessionResult",
-                "usr": "s:5TruID13SessionResultV"
+                "name": "ResponseModel",
+                "printedName": "TruID.ResponseModel",
+                "usr": "s:5TruID13ResponseModelV"
               },
               {
                 "kind": "TypeNominal",
@@ -3508,8 +1398,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID13SessionResultV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID13SessionResultV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:5TruID13ResponseModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID13ResponseModelV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -3533,8 +1423,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TruID13SessionResultV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID13SessionResultV6encode2toys7Encoder_p_tKF",
+            "usr": "s:5TruID13ResponseModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID13ResponseModelV6encode2toys7Encoder_p_tKF",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -3542,8 +1432,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TruID13SessionResultV",
-        "mangledName": "$s5TruID13SessionResultV",
+        "usr": "s:5TruID13ResponseModelV",
+        "mangledName": "$s5TruID13ResponseModelV",
         "moduleName": "TruID",
         "declAttributes": [
           "AccessControl"
@@ -3562,137 +1452,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CardHelpScreen",
-        "printedName": "CardHelpScreen",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID14CardHelpScreenV4bodyQrvp",
-            "mangledName": "$s5TruID14CardHelpScreenV4bodyQrvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID14CardHelpScreenV4bodyQrvg",
-                "mangledName": "$s5TruID14CardHelpScreenV4bodyQrvg",
-                "moduleName": "TruID",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CardHelpScreen",
-                "printedName": "TruID.CardHelpScreen",
-                "usr": "s:5TruID14CardHelpScreenV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5TruID14CardHelpScreenVACycfc",
-            "mangledName": "$s5TruID14CardHelpScreenVACycfc",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID14CardHelpScreenV",
-        "mangledName": "$s5TruID14CardHelpScreenV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
       },
@@ -3785,33 +1544,6 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -4429,29 +2161,8 @@
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "MapKit",
-        "printedName": "MapKit",
         "declKind": "Import",
         "moduleName": "TruID"
       },
@@ -4522,131 +2233,6 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CardScreen",
-        "printedName": "CardScreen",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID10CardScreenV4bodyQrvp",
-            "mangledName": "$s5TruID10CardScreenV4bodyQrvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID10CardScreenV4bodyQrvg",
-                "mangledName": "$s5TruID10CardScreenV4bodyQrvg",
-                "moduleName": "TruID",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID10CardScreenV",
-        "mangledName": "$s5TruID10CardScreenV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4667,178 +2253,12 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreImage",
-        "printedName": "CoreImage",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "TruID",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FingerprintHelpScreen",
-        "printedName": "FingerprintHelpScreen",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID21FingerprintHelpScreenV4bodyQrvp",
-            "mangledName": "$s5TruID21FingerprintHelpScreenV4bodyQrvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID21FingerprintHelpScreenV4bodyQrvg",
-                "mangledName": "$s5TruID21FingerprintHelpScreenV4bodyQrvg",
-                "moduleName": "TruID",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID21FingerprintHelpScreenV",
-        "mangledName": "$s5TruID21FingerprintHelpScreenV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
         ]
       },
       {
@@ -5043,40 +2463,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreFoundation",
-        "printedName": "CoreFoundation",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreVideo",
-        "printedName": "CoreVideo",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -5155,7 +2541,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:API_URL:face_liveness:document_capture:extract_data:document_authenticity:document_backside_capture:id_to_selfie_matching:fingerprint_capture:fingerprint_selection:fingerprint_to_scan:enableHelpScreens:enableReportScreen:themeColor:success:failure:)",
+            "printedName": "init(API_URL:face_liveness:enableHelpScreens:enableReportScreen:themeColor:success:failure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5167,12 +2553,6 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
               },
@@ -5182,62 +2562,6 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FingersToScan",
-                "printedName": "TruID.FingersToScan",
-                "hasDefaultArg": true,
-                "usr": "s:5TruID13FingersToScanO"
               },
               {
                 "kind": "TypeNominal",
@@ -5263,7 +2587,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TruID.SessionResult) -> ()",
+                "printedName": "(TruID.ResponseModel) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5272,9 +2596,9 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "SessionResult",
-                    "printedName": "TruID.SessionResult",
-                    "usr": "s:5TruID13SessionResultV"
+                    "name": "ResponseModel",
+                    "printedName": "TruID.ResponseModel",
+                    "usr": "s:5TruID13ResponseModelV"
                   }
                 ]
               },
@@ -5298,8 +2622,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcyAA12FailureCasesOctcfc",
-            "mangledName": "$s5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan17enableHelpScreens0W12ReportScreen10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS2b7SwiftUI5ColorVyAA13SessionResultVcyAA12FailureCasesOctcfc",
+            "usr": "s:5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA13ResponseModelVcyAA12FailureCasesOctcfc",
+            "mangledName": "$s5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA13ResponseModelVcyAA12FailureCasesOctcfc",
             "moduleName": "TruID",
             "declAttributes": [
               "Custom",
@@ -5360,34 +2684,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
         "name": "TensorFlowLiteTaskVision",
         "printedName": "TensorFlowLiteTaskVision",
         "declKind": "Import",
@@ -5433,82 +2729,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreImage",
-        "printedName": "CoreImage",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "VideoToolbox",
-        "printedName": "VideoToolbox",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "TruID"
       },
       {
         "kind": "Import",
@@ -5577,16 +2797,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Accelerate",
         "printedName": "Accelerate",
         "declKind": "Import",
@@ -5610,161 +2820,6 @@
         "moduleName": "TruID",
         "declAttributes": [
           "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "TruID"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FingerprintScreen",
-        "printedName": "FingerprintScreen",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID17FingerprintScreenV4bodyQrvp",
-            "mangledName": "$s5TruID17FingerprintScreenV4bodyQrvp",
-            "moduleName": "TruID",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID17FingerprintScreenV4bodyQrvg",
-                "mangledName": "$s5TruID17FingerprintScreenV4bodyQrvg",
-                "moduleName": "TruID",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5TruID17FingerprintScreenV",
-        "mangledName": "$s5TruID17FingerprintScreenV",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "TruID",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -6175,13 +3230,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NonCameraScreenLayout.swift",
-      "kind": "BooleanLiteral",
-      "offset": 303,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/CameraPreviewCorners.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
@@ -6224,76 +3272,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3469,
-      "length": 13,
-      "value": "\"Father Name\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3510,
-      "length": 15,
-      "value": "\"Date of Birth\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3553,
-      "length": 15,
-      "value": "\"Date of Issue\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3597,
-      "length": 16,
-      "value": "\"Date of Expiry\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3644,
-      "length": 17,
-      "value": "\"Identity Number\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3469,
-      "length": 13,
-      "value": "\"Father Name\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3510,
-      "length": 15,
-      "value": "\"Date of Birth\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3553,
-      "length": 15,
-      "value": "\"Date of Issue\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3597,
-      "length": 16,
-      "value": "\"Date of Expiry\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
-      "kind": "StringLiteral",
-      "offset": 3644,
-      "length": 17,
-      "value": "\"Identity Number\""
-    },
-    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/ReportScreen\/ReportScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 165,
@@ -6316,183 +3294,134 @@
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "Array",
-      "offset": 298,
-      "length": 115,
-      "value": "[\"face_liveness\", \"document_capture\", \"fingerprint_capture\", \"complete_page\"]"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "StringLiteral",
-      "offset": 570,
+      "offset": 369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 694,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 784,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 918,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1083,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1242,
+      "offset": 575,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 579,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1258,
+      "offset": 591,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1262,
+      "offset": 595,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 606,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1277,
+      "offset": 610,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 1289,
+      "offset": 622,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1329,
+      "offset": 662,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1370,
+      "offset": 703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1820,
+      "offset": 825,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1824,
+      "offset": 829,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1836,
+      "offset": 841,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1840,
+      "offset": 845,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 856,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1855,
+      "offset": 860,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 1867,
+      "offset": 872,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2020,
+      "offset": 1025,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2061,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/SDKMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 439,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/SDKMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 475,
+      "offset": 1066,
       "length": 4,
       "value": "true"
     },
@@ -6506,21 +3435,21 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/CameraScreenLayout.swift",
       "kind": "FloatLiteral",
-      "offset": 287,
+      "offset": 279,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/CameraScreenLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 319,
+      "offset": 305,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/CameraScreenLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 357,
+      "offset": 337,
       "length": 5,
       "value": "false"
     },
@@ -8291,16 +5220,9 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 266,
-      "length": 30,
-      "value": "\"https:\/\/release-api.truid.ai\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
-      "kind": "Dictionary",
-      "offset": 386,
-      "length": 441,
-      "value": "[(\"demo_video\", false), (\"face_liveness\", false), (\"passive_face_liveness\", false), (\"on_device_liveness\", false), (\"document_capture\", true), (\"extract_data\", true), (\"document_authenticity\", true), (\"document_backside_capture\", true), (\"id_to_selfie_matching\", false), (\"fingerprint_capture\", false), (\"finger_selection\", false), (\"account_options\", false)]"
+      "offset": 171,
+      "length": 27,
+      "value": "\"https:\/\/face-api.truid.ai\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/LoadingView.swift",
@@ -9822,144 +6744,11 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 327,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/StartScreen\/StartScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 922,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 463,
-      "length": 39,
-      "value": "\"Please bring your card inside the box\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 551,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 594,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 632,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 675,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 724,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 820,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 870,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 967,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1012,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1048,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1081,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1123,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1190,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1226,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1339,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1373,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/CardScreen\/CardDetectionHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1401,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Utils\/LotieSwiftUIView.swift",
@@ -9985,217 +6774,147 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 417,
       "length": 43,
       "value": "\"Please bring your face inside the circle.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "Array",
-      "offset": 542,
+      "offset": 570,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 657,
+      "offset": 685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 699,
+      "offset": 727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 862,
+      "offset": 890,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 893,
+      "offset": 921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 931,
+      "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1037,
+      "offset": 1065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1071,
+      "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 1113,
+      "offset": 1141,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1145,
+      "offset": 1173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1210,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1216,
+      "offset": 1244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1238,
+      "offset": 1266,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/Strategies\/RightThumbStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 453,
-      "length": 18,
-      "value": "\"TruID.RightThumbStrategy\""
-    },
-    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
-      "length": 30,
-      "value": "\"https:\/\/release-api.truid.ai\""
+      "offset": 1193,
+      "length": 27,
+      "value": "\"https:\/\/face-api.truid.ai\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
+      "offset": 1252,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 1292,
+      "offset": 1659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 1327,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1419,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1463,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1505,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1549,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1644,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1685,
+      "offset": 1700,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 1747,
+      "offset": 1762,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 1751,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1763,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
+      "offset": 1766,
       "length": 3,
       "value": "255"
     },
@@ -10204,7 +6923,7 @@
       "kind": "IntegerLiteral",
       "offset": 1778,
       "length": 3,
-      "value": "200"
+      "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
@@ -10215,38 +6934,24 @@
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1793,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1797,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",
       "kind": "FloatLiteral",
-      "offset": 1794,
+      "offset": 1809,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/NavigationButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 30,
-      "value": "\"https:\/\/release-api.truid.ai\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 769,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
-      "kind": "Array",
-      "offset": 815,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/TFPoseModel.swift",
@@ -10375,104 +7080,6 @@
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 728,
-      "length": 31,
-      "value": "\"ai.truid.TruID.inferencequeue\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 828,
-      "length": 43,
-      "value": "\"ai.truid.TruID.fingerprintProcessingQueue\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 917,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1110,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1156,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1212,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1235,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1468,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1624,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1666,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1936,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1955,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1986,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/Strategies\/LeftFourFingersStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 1115,
-      "length": 23,
-      "value": "\"TruID.LeftFourFingersStrategy\""
-    },
-    {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/ProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 390,
@@ -10548,41 +7155,6 @@
       "offset": 429,
       "length": 5,
       "value": "127.5"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/Strategies\/RightFourFingersStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 1124,
-      "length": 24,
-      "value": "\"TruID.RightFourFingersStrategy\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 331,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
-      "kind": "FloatLiteral",
-      "offset": 376,
-      "length": 4,
-      "value": "0.45"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/FingerprintScreen.swift",
-      "kind": "FloatLiteral",
-      "offset": 416,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FingerprintScreen\/Strategies\/LeftThumbStrategy.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
-      "length": 17,
-      "value": "\"TruID.LeftThumbStrategy\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/Topbar.swift",

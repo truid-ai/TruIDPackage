@@ -3,16 +3,12 @@
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TruID
 import AVFoundation
 import Accelerate
-import CommonCrypto
-import CoreFoundation
 import CoreGraphics
 import CoreImage
 import CoreLocation
 import CoreMedia
-import CoreVideo
 import DeveloperToolsSupport
 import Foundation
-import MapKit
 import QuartzCore
 import Swift
 import SwiftUI
@@ -43,96 +39,31 @@ public enum FingersToScan : Swift.CaseIterable {
 extension Foundation.Bundle {
   public class func current(dsoHandle: Swift.UnsafeRawPointer = #dsohandle) -> Foundation.Bundle
 }
-public enum StatusValue : Swift.Codable {
-  case string(Swift.String)
-  case bool(Swift.Bool)
-  public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  public var value: Swift.Bool {
-    get
-  }
-}
-public struct ReportStep : Swift.Codable {
-  public let status: TruID.StatusValue?
+public struct ResponseResult : Swift.Codable {
+  public let status: Swift.String
+  public let confidence: Swift.Double
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ExtractedData : Swift.Codable {
-  public let Name: Swift.String?
-  public let Gender: Swift.String?
-  public let FatherName: Swift.String?
-  public let DateOfBirth: Swift.String?
-  public let DateOfIssue: Swift.String?
-  public let DateOfExpiry: Swift.String?
-  public let IdentityNumber: Swift.String?
+public struct FaceQualityChecks : Swift.Codable {
+  public let face_detected: Swift.String
+  public let face_exposure: Swift.String
+  public let bg_glare: Swift.String
+  public let covered_face: Swift.String
+  public let sun_glasses: Swift.String
+  public let expression: Swift.String
+  public let eyes_closed: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct DocumentCaptureReport : Swift.Codable {
-  public let extracted_data: TruID.ExtractedData?
+public struct ResponseModel : Swift.Codable {
+  public let status: Swift.Int
+  public let icaoStatus: Swift.String?
+  public let error: Swift.String?
+  public let result: TruID.ResponseResult?
+  public let faceQualityChecks: TruID.FaceQualityChecks?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-public struct DocumentCaptureReportStep : Swift.Codable {
-  public let status: TruID.StatusValue?
-  public let report: TruID.DocumentCaptureReport?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Report : Swift.Codable {
-  public let document_authenticity: TruID.ReportStep?
-  public let document_capture: TruID.DocumentCaptureReportStep?
-  public let face_liveness: TruID.ReportStep?
-  public let id_to_selfie_matching: TruID.ReportStep?
-  public let data_extraction: TruID.ReportStep?
-  public let fingerprint_capture: TruID.ReportStep?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Configuration : Swift.Codable {
-  public let config: [TruID.Config]
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Config : Swift.Codable {
-  public let path: Swift.String?
-  public let type: Swift.String
-  public let required: Swift.Bool?
-  public let step_config: TruID.StepConfig?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct StepConfig : Swift.Codable {
-  public let id_to_selfie_matching: Swift.Bool?
-  public let extract_data: Swift.Bool?
-  public let document_authenticity: Swift.Bool?
-  public let document_backside_capture: Swift.Bool?
-  public let finger_selection: Swift.Bool?
-  public let passive_face_liveness: Swift.Bool?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Session : Swift.Codable, Swift.Identifiable {
-  public let id: Swift.Int
-  public let status: Swift.String?
-  public let configuration: TruID.Configuration
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct SessionResult : Swift.Codable {
-  public let id: Swift.Int
-  public let report: TruID.Report?
-  public let status: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct CardHelpScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public init()
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID14CardHelpScreenV4bodyQrvp", 0) __
 }
 public enum FailureCases {
   case userCanceled
@@ -157,18 +88,6 @@ public enum FailureCases {
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
-@_Concurrency.MainActor(unsafe) public struct CardScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID21FingerprintHelpScreenV4bodyQrvp", 0) __
-}
 public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreFoundation.CGSize {
 }
 extension TruID.CGSizePreferenceKey {
@@ -182,14 +101,8 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(API_URL: Swift.String = "https://face-api.truid.ai", face_liveness: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.ResponseModel) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
