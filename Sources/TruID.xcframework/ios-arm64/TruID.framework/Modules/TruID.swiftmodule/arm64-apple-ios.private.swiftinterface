@@ -136,7 +136,7 @@ public struct CardHelpScreen : SwiftUI.View {
 }
 public enum FailureCases {
   case userCanceled
-  case networkError
+  case fallbackError
   case timedOut
   case jsonDecodingFailed
   case unableToAccessLocation
@@ -145,6 +145,9 @@ public enum FailureCases {
   case validationErrorFromServer
   case sessionExpired
   case cannotLoadModels
+  case invalidConfiguration
+  case notConnectedToInternet
+  case noFlashLight
   public var message: Swift.String {
     get
   }

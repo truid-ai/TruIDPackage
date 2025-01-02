@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
                       :(int)interpolation;
 + (UIImage *)binarize:(UIImage *)image;
 + (UIImage *)applyPill:(UIImage *)image :(UIImage *)pillImage;
++ (BOOL)isImageOverexposed:(UIImage *)image;
 
 @end
 
