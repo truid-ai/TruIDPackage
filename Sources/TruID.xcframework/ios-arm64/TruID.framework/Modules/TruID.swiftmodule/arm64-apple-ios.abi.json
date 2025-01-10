@@ -4368,6 +4368,43 @@
           },
           {
             "kind": "Var",
+            "name": "locationError",
+            "printedName": "locationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailureCases",
+                    "printedName": "TruID.FailureCases",
+                    "usr": "s:5TruID12FailureCasesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FailureCases.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID12FailureCasesO13locationErroryA2CmF",
+            "mangledName": "$s5TruID12FailureCasesO13locationErroryA2CmF",
+            "moduleName": "TruID"
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -6308,29 +6345,29 @@
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CameraPreview\/CameraHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 298,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CameraPreview\/CameraHandler.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 374,
       "length": 32,
       "value": "\"ai.truid.TruID.VisionFaceTrack\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CameraPreview\/CameraHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 576,
+      "offset": 543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CameraPreview\/CameraHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 776,
+      "offset": 602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CameraPreview\/CameraHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 805,
       "length": 5,
       "value": "false"
     },
@@ -10082,7 +10119,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/LocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 411,
+      "offset": 383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/LocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 419,
       "length": 5,
       "value": "false"
     },

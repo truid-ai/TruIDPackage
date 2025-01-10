@@ -148,6 +148,7 @@ public enum FailureCases {
   case invalidConfiguration
   case notConnectedToInternet
   case noFlashLight
+  case locationError
   public var message: Swift.String {
     get
   }
