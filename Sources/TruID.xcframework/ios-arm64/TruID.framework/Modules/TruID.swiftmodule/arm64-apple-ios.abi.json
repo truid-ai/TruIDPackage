@@ -703,13 +703,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FaceQualityChecks",
-        "printedName": "FaceQualityChecks",
+        "name": "FaceLivenessMetrics",
+        "printedName": "FaceLivenessMetrics",
         "children": [
           {
             "kind": "Var",
-            "name": "face_detected",
-            "printedName": "face_detected",
+            "name": "backgroundUniformity",
+            "printedName": "backgroundUniformity",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -719,8 +719,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV13face_detectedSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV13face_detectedSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV20backgroundUniformitySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV20backgroundUniformitySSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -742,8 +742,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV13face_detectedSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV13face_detectedSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV20backgroundUniformitySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV20backgroundUniformitySSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -752,8 +752,8 @@
           },
           {
             "kind": "Var",
-            "name": "face_exposure",
-            "printedName": "face_exposure",
+            "name": "shadowSymmetry",
+            "printedName": "shadowSymmetry",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -763,8 +763,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV13face_exposureSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV13face_exposureSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV14shadowSymmetrySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV14shadowSymmetrySSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -786,8 +786,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV13face_exposureSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV13face_exposureSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV14shadowSymmetrySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV14shadowSymmetrySSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -796,8 +796,8 @@
           },
           {
             "kind": "Var",
-            "name": "bg_glare",
-            "printedName": "bg_glare",
+            "name": "appropriateLighting",
+            "printedName": "appropriateLighting",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -807,8 +807,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV8bg_glareSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV8bg_glareSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV19appropriateLightingSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV19appropriateLightingSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -830,8 +830,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV8bg_glareSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV8bg_glareSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV19appropriateLightingSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV19appropriateLightingSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -840,8 +840,8 @@
           },
           {
             "kind": "Var",
-            "name": "covered_face",
-            "printedName": "covered_face",
+            "name": "appropriateExposure",
+            "printedName": "appropriateExposure",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -851,8 +851,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV12covered_faceSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV12covered_faceSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV19appropriateExposureSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV19appropriateExposureSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -874,8 +874,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV12covered_faceSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV12covered_faceSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV19appropriateExposureSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV19appropriateExposureSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -884,8 +884,8 @@
           },
           {
             "kind": "Var",
-            "name": "sun_glasses",
-            "printedName": "sun_glasses",
+            "name": "colorNeutrality",
+            "printedName": "colorNeutrality",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -895,8 +895,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV11sun_glassesSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV11sun_glassesSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV15colorNeutralitySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV15colorNeutralitySSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -918,8 +918,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV11sun_glassesSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV11sun_glassesSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV15colorNeutralitySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV15colorNeutralitySSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -928,8 +928,8 @@
           },
           {
             "kind": "Var",
-            "name": "expression",
-            "printedName": "expression",
+            "name": "expressionNeutrality",
+            "printedName": "expressionNeutrality",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -939,8 +939,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV10expressionSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV10expressionSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV20expressionNeutralitySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV20expressionNeutralitySSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -962,8 +962,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV10expressionSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV10expressionSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV20expressionNeutralitySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV20expressionNeutralitySSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -972,8 +972,8 @@
           },
           {
             "kind": "Var",
-            "name": "eyes_closed",
-            "printedName": "eyes_closed",
+            "name": "foreignObjectsAbsence",
+            "printedName": "foreignObjectsAbsence",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -983,8 +983,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID17FaceQualityChecksV11eyes_closedSSvp",
-            "mangledName": "$s5TruID17FaceQualityChecksV11eyes_closedSSvp",
+            "usr": "s:5TruID19FaceLivenessMetricsV21foreignObjectsAbsenceSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV21foreignObjectsAbsenceSSvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -1006,8 +1006,316 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID17FaceQualityChecksV11eyes_closedSSvg",
-                "mangledName": "$s5TruID17FaceQualityChecksV11eyes_closedSSvg",
+                "usr": "s:5TruID19FaceLivenessMetricsV21foreignObjectsAbsenceSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV21foreignObjectsAbsenceSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lookingStraight",
+            "printedName": "lookingStraight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV15lookingStraightSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV15lookingStraightSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV15lookingStraightSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV15lookingStraightSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceAlignment",
+            "printedName": "faceAlignment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV13faceAlignmentSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV13faceAlignmentSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV13faceAlignmentSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV13faceAlignmentSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "openEyes",
+            "printedName": "openEyes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV8openEyesSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV8openEyesSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV8openEyesSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV8openEyesSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eyeVisibility",
+            "printedName": "eyeVisibility",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV13eyeVisibilitySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV13eyeVisibilitySSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV13eyeVisibilitySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV13eyeVisibilitySSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceFeaturesVisibility",
+            "printedName": "faceFeaturesVisibility",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV22faceFeaturesVisibilitySSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV22faceFeaturesVisibilitySSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV22faceFeaturesVisibilitySSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV22faceFeaturesVisibilitySSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glasses",
+            "printedName": "glasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV7glassesSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV7glassesSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV7glassesSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV7glassesSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sunGlasses",
+            "printedName": "sunGlasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID19FaceLivenessMetricsV10sunGlassesSSvp",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV10sunGlassesSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID19FaceLivenessMetricsV10sunGlassesSSvg",
+                "mangledName": "$s5TruID19FaceLivenessMetricsV10sunGlassesSSvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1021,9 +1329,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FaceQualityChecks",
-                "printedName": "TruID.FaceQualityChecks",
-                "usr": "s:5TruID17FaceQualityChecksV"
+                "name": "FaceLivenessMetrics",
+                "printedName": "TruID.FaceLivenessMetrics",
+                "usr": "s:5TruID19FaceLivenessMetricsV"
               },
               {
                 "kind": "TypeNominal",
@@ -1033,8 +1341,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID17FaceQualityChecksV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TruID17FaceQualityChecksV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:5TruID19FaceLivenessMetricsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -1058,8 +1366,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TruID17FaceQualityChecksV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TruID17FaceQualityChecksV6encode2toys7Encoder_p_tKF",
+            "usr": "s:5TruID19FaceLivenessMetricsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID19FaceLivenessMetricsV6encode2toys7Encoder_p_tKF",
             "moduleName": "TruID",
             "implicit": true,
             "throwing": true,
@@ -1067,8 +1375,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TruID17FaceQualityChecksV",
-        "mangledName": "$s5TruID17FaceQualityChecksV",
+        "usr": "s:5TruID19FaceLivenessMetricsV",
+        "mangledName": "$s5TruID19FaceLivenessMetricsV",
         "moduleName": "TruID",
         "declAttributes": [
           "AccessControl"
@@ -1327,21 +1635,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "TruID.FaceQualityChecks?",
+                "printedName": "TruID.FaceLivenessMetrics?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "FaceQualityChecks",
-                    "printedName": "TruID.FaceQualityChecks",
-                    "usr": "s:5TruID17FaceQualityChecksV"
+                    "name": "FaceLivenessMetrics",
+                    "printedName": "TruID.FaceLivenessMetrics",
+                    "usr": "s:5TruID19FaceLivenessMetricsV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvp",
-            "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvp",
+            "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA19FaceLivenessMetricsVSgvp",
+            "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA19FaceLivenessMetricsVSgvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -1358,21 +1666,81 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TruID.FaceQualityChecks?",
+                    "printedName": "TruID.FaceLivenessMetrics?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "FaceQualityChecks",
-                        "printedName": "TruID.FaceQualityChecks",
-                        "usr": "s:5TruID17FaceQualityChecksV"
+                        "name": "FaceLivenessMetrics",
+                        "printedName": "TruID.FaceLivenessMetrics",
+                        "usr": "s:5TruID19FaceLivenessMetricsV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvg",
-                "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA04FacefG0VSgvg",
+                "usr": "s:5TruID13ResponseModelV17faceQualityChecksAA19FaceLivenessMetricsVSgvg",
+                "mangledName": "$s5TruID13ResponseModelV17faceQualityChecksAA19FaceLivenessMetricsVSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "incompatibleCamera",
+            "printedName": "incompatibleCamera",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID13ResponseModelV18incompatibleCameraSbSgvp",
+            "mangledName": "$s5TruID13ResponseModelV18incompatibleCameraSbSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID13ResponseModelV18incompatibleCameraSbSgvg",
+                "mangledName": "$s5TruID13ResponseModelV18incompatibleCameraSbSgvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1453,6 +1821,108 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruIDResult",
+        "printedName": "TruIDResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "responseModel",
+            "printedName": "responseModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseModel",
+                "printedName": "TruID.ResponseModel",
+                "usr": "s:5TruID13ResponseModelV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID0A8IDResultV13responseModelAA08ResponseE0Vvp",
+            "mangledName": "$s5TruID0A8IDResultV13responseModelAA08ResponseE0Vvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseModel",
+                    "printedName": "TruID.ResponseModel",
+                    "usr": "s:5TruID13ResponseModelV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID0A8IDResultV13responseModelAA08ResponseE0Vvg",
+                "mangledName": "$s5TruID0A8IDResultV13responseModelAA08ResponseE0Vvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID0A8IDResultV5imageSo7UIImageCvp",
+            "mangledName": "$s5TruID0A8IDResultV5imageSo7UIImageCvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID0A8IDResultV5imageSo7UIImageCvg",
+                "mangledName": "$s5TruID0A8IDResultV5imageSo7UIImageCvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5TruID0A8IDResultV",
+        "mangledName": "$s5TruID0A8IDResultV",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -2587,7 +3057,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TruID.ResponseModel) -> ()",
+                "printedName": "(TruID.TruIDResult) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2596,9 +3066,9 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ResponseModel",
-                    "printedName": "TruID.ResponseModel",
-                    "usr": "s:5TruID13ResponseModelV"
+                    "name": "TruIDResult",
+                    "printedName": "TruID.TruIDResult",
+                    "usr": "s:5TruID0A8IDResultV"
                   }
                 ]
               },
@@ -2622,8 +3092,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA13ResponseModelVcyAA12FailureCasesOctcfc",
-            "mangledName": "$s5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA13ResponseModelVcyAA12FailureCasesOctcfc",
+            "usr": "s:5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA0A8IDResultVcyAA12FailureCasesOctcfc",
+            "mangledName": "$s5TruID9TruidMainV7API_URL13face_liveness17enableHelpScreens0I12ReportScreen10themeColor7success7failureACSS_S3b7SwiftUI0O0VyAA0A8IDResultVcyAA12FailureCasesOctcfc",
             "moduleName": "TruID",
             "declAttributes": [
               "Custom",
@@ -3302,126 +3772,126 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 575,
+      "offset": 571,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 579,
+      "offset": 575,
       "length": 3,
       "value": "255"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 3,
+      "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 591,
       "length": 3,
-      "value": "100"
+      "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 595,
+      "offset": 602,
       "length": 3,
-      "value": "255"
+      "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 606,
       "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 610,
-      "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 622,
+      "offset": 618,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 662,
+      "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 703,
+      "offset": 699,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 3,
+      "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
       "offset": 825,
       "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 829,
-      "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 841,
+      "offset": 837,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 845,
+      "offset": 841,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 856,
+      "offset": 852,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 860,
+      "offset": 856,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 872,
+      "offset": 868,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1025,
+      "offset": 1019,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1066,
+      "offset": 1060,
       "length": 4,
       "value": "true"
     },
@@ -5221,8 +5691,8 @@
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/API.swift",
       "kind": "StringLiteral",
       "offset": 171,
-      "length": 27,
-      "value": "\"https:\/\/face-api.truid.ai\""
+      "length": 53,
+      "value": "\"https:\/\/face-api.truid.ai\/check-face-liveness?ios=1\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/Components\/LoadingView.swift",
@@ -6802,79 +7272,86 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 890,
+      "offset": 885,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 921,
+      "offset": 916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 959,
+      "offset": 954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1065,
+      "offset": 1060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1099,
+      "offset": 1094,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 1141,
+      "offset": 1136,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1173,
+      "offset": 1168,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
+      "offset": 1205,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1244,
+      "offset": 1239,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1266,
+      "offset": 1261,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/FaceScreen\/FaceLivenessHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 9764,
+      "length": 3,
+      "value": "0.1"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Core\/App\/TruidMain.swift",

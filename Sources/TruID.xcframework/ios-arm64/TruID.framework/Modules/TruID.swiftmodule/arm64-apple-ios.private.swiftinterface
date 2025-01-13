@@ -45,14 +45,21 @@ public struct ResponseResult : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct FaceQualityChecks : Swift.Codable {
-  public let face_detected: Swift.String
-  public let face_exposure: Swift.String
-  public let bg_glare: Swift.String
-  public let covered_face: Swift.String
-  public let sun_glasses: Swift.String
-  public let expression: Swift.String
-  public let eyes_closed: Swift.String
+public struct FaceLivenessMetrics : Swift.Codable {
+  public let backgroundUniformity: Swift.String
+  public let shadowSymmetry: Swift.String
+  public let appropriateLighting: Swift.String
+  public let appropriateExposure: Swift.String
+  public let colorNeutrality: Swift.String
+  public let expressionNeutrality: Swift.String
+  public let foreignObjectsAbsence: Swift.String
+  public let lookingStraight: Swift.String
+  public let faceAlignment: Swift.String
+  public let openEyes: Swift.String
+  public let eyeVisibility: Swift.String
+  public let faceFeaturesVisibility: Swift.String
+  public let glasses: Swift.String
+  public let sunGlasses: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -61,9 +68,14 @@ public struct ResponseModel : Swift.Codable {
   public let icaoStatus: Swift.String?
   public let error: Swift.String?
   public let result: TruID.ResponseResult?
-  public let faceQualityChecks: TruID.FaceQualityChecks?
+  public let faceQualityChecks: TruID.FaceLivenessMetrics?
+  public let incompatibleCamera: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct TruIDResult {
+  public let responseModel: TruID.ResponseModel
+  public let image: UIKit.UIImage
 }
 public enum FailureCases {
   case userCanceled
@@ -101,7 +113,7 @@ extension SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(API_URL: Swift.String = "https://face-api.truid.ai", face_liveness: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.ResponseModel) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(API_URL: Swift.String = "https://face-api.truid.ai", face_liveness: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.TruIDResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
