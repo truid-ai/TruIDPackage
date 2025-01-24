@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TruID
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
 import CommonCrypto
@@ -33,7 +34,7 @@ public enum FingersToScan : Swift.CaseIterable {
   public static func == (a: TruID.FingersToScan, b: TruID.FingersToScan) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [TruID.FingersToScan]
-  public static var allCases: [TruID.FingersToScan] {
+  nonisolated public static var allCases: [TruID.FingersToScan] {
     get
   }
   public var hashValue: Swift.Int {
@@ -127,11 +128,11 @@ public struct SessionResult : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct CardHelpScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct CardHelpScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public init()
+  @_Concurrency.MainActor @preconcurrency public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID14CardHelpScreenV4bodyQrvp", 0) __
 }
 public enum FailureCases {
@@ -159,43 +160,48 @@ public enum FailureCases {
   }
 }
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
-@_Concurrency.MainActor(unsafe) public struct CardScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct CardScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID10CardScreenV4bodyQrvp", 0) __
 }
-@_Concurrency.MainActor(unsafe) public struct FingerprintHelpScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct FingerprintHelpScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID21FingerprintHelpScreenV4bodyQrvp", 0) __
 }
-public protocol CGSizePreferenceKey : SwiftUI.PreferenceKey where Self.Value == CoreFoundation.CGSize {
+public protocol CGSizePreferenceKey : SwiftUICore.PreferenceKey where Self.Value == CoreFoundation.CGSize {
 }
 extension TruID.CGSizePreferenceKey {
   public static func reduce(value _: inout CoreFoundation.CGSize, nextValue: () -> CoreFoundation.CGSize)
 }
-extension SwiftUI.View {
-  public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreFoundation.CGSize) -> Swift.Void) -> some SwiftUI.View where Key : TruID.CGSizePreferenceKey
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func onSizeChanged<Key>(_ key: Key.Type, perform action: @escaping (CoreFoundation.CGSize) -> Swift.Void) -> some SwiftUICore.View where Key : TruID.CGSizePreferenceKey
   
 }
-@_Concurrency.MainActor(unsafe) public struct TruidMain : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct TruidMain : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, isTestAccount: Swift.Bool = false, themeColor: SwiftUI.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, isTestAccount: Swift.Bool = false, themeColor: SwiftUICore.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
-@_Concurrency.MainActor(unsafe) public struct FingerprintScreen : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct FingerprintScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
+extension TruID.CardHelpScreen : Swift.Sendable {}
 extension TruID.FailureCases : Swift.Equatable {}
 extension TruID.FailureCases : Swift.Hashable {}
+extension TruID.CardScreen : Swift.Sendable {}
+extension TruID.FingerprintHelpScreen : Swift.Sendable {}
+extension TruID.TruidMain : Swift.Sendable {}
+extension TruID.FingerprintScreen : Swift.Sendable {}
