@@ -4127,13 +4127,34 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TruID.FailureCases.Type) -> TruID.FailureCases",
+                "printedName": "(TruID.FailureCases.Type) -> (Swift.String?) -> TruID.FailureCases",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "FailureCases",
-                    "printedName": "TruID.FailureCases",
-                    "usr": "s:5TruID12FailureCasesO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> TruID.FailureCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailureCases",
+                        "printedName": "TruID.FailureCases",
+                        "usr": "s:5TruID12FailureCasesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -4152,8 +4173,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TruID12FailureCasesO13fallbackErroryA2CmF",
-            "mangledName": "$s5TruID12FailureCasesO13fallbackErroryA2CmF",
+            "usr": "s:5TruID12FailureCasesO13fallbackErroryACSSSgcACmF",
+            "mangledName": "$s5TruID12FailureCasesO13fallbackErroryACSSSgcACmF",
             "moduleName": "TruID"
           },
           {
@@ -4671,70 +4692,6 @@
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5TruID12FailureCasesO9hashValueSivp",
-            "mangledName": "$s5TruID12FailureCasesO9hashValueSivp",
-            "moduleName": "TruID",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5TruID12FailureCasesO9hashValueSivg",
-                "mangledName": "$s5TruID12FailureCasesO9hashValueSivg",
-                "moduleName": "TruID",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5TruID12FailureCasesO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s5TruID12FailureCasesO4hash4intoys6HasherVz_tF",
-            "moduleName": "TruID",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -4765,13 +4722,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           }
         ]
       },
@@ -10332,14 +10282,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CardScreen\/CardScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 5735,
+      "offset": 5713,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/CardScreen\/CardScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 5765,
+      "offset": 5743,
       "length": 1,
       "value": "2"
     },
@@ -10752,14 +10702,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 768,
+      "offset": 1726,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "Array",
-      "offset": 814,
+      "offset": 1772,
       "length": 2,
       "value": "[]"
     },

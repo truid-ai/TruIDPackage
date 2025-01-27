@@ -135,9 +135,9 @@ public struct SessionResult : Swift.Codable {
   @_Concurrency.MainActor @preconcurrency public init()
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID14CardHelpScreenV4bodyQrvp", 0) __
 }
-public enum FailureCases {
+public enum FailureCases : Swift.Equatable {
   case userCanceled
-  case fallbackError
+  case fallbackError(Swift.String?)
   case timedOut
   case jsonDecodingFailed
   case unableToAccessLocation
@@ -154,10 +154,6 @@ public enum FailureCases {
     get
   }
   public static func == (a: TruID.FailureCases, b: TruID.FailureCases) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
@@ -199,8 +195,6 @@ extension SwiftUICore.View {
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
 extension TruID.CardHelpScreen : Swift.Sendable {}
-extension TruID.FailureCases : Swift.Equatable {}
-extension TruID.FailureCases : Swift.Hashable {}
 extension TruID.CardScreen : Swift.Sendable {}
 extension TruID.FingerprintHelpScreen : Swift.Sendable {}
 extension TruID.TruidMain : Swift.Sendable {}
