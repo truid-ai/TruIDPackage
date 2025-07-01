@@ -150,8 +150,8 @@ public enum FailureCases : Swift.Equatable {
   case notConnectedToInternet
   case noFlashLight
   case locationError
-  case retry
-  case retryExhausted
+  case retry(_: Swift.String? = nil)
+  case retryExhausted(_: Swift.String? = nil)
   public var message: Swift.String {
     get
   }
