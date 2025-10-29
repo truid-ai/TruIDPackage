@@ -17,7 +17,6 @@ import MapKit
 import QuartzCore
 import Swift
 import SwiftUI
-import TensorFlowLite
 @_exported import TruID
 import UIKit
 import VideoToolbox
