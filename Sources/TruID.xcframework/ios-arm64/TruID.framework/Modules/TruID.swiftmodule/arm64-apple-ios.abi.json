@@ -12693,49 +12693,56 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15015,
+      "offset": 14928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15154,
+      "offset": 15091,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15230,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15533,
+      "offset": 15609,
       "length": 103,
       "value": "\"Your selfie couldn't be verified. Please try again in better lighting with your face clearly visible.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15760,
+      "offset": 15836,
       "length": 75,
       "value": "\"Your retries limit for liveness check has been reached. Please try again.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16057,
+      "offset": 16133,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 16116,
+      "offset": 16192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 16156,
+      "offset": 16232,
       "length": 1,
       "value": "6"
     },
