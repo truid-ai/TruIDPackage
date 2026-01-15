@@ -40,33 +40,57 @@ public struct ReportStep : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ExtractedData : Swift.Codable {
-  public let NameInIDCard: Swift.String?
+public struct ExtractedCardData : Swift.Codable {
+  public let Sex: Swift.String?
+  public let Name: Swift.String?
   public let Address: Swift.String?
-  public let BloodType: Swift.String?
   public let Occupation: Swift.String?
+  public let Nationality: Swift.String?
   public let EnglishName: Swift.String?
-  public let DocumentType: Swift.String?
-  public let NationalNumberID: Swift.String?
   public let DateOfBirth: Swift.String?
   public let DateOfIssue: Swift.String?
+  public let DocumentType: Swift.String?
   public let DateOfExpiry: Swift.String?
-  public let Sex: Swift.String?
-  public let Nationality: Swift.String?
   public let PlaceOfBirth: Swift.String?
   public let PlaceOfIssue: Swift.String?
-  public let NameInPassport: Swift.String?
+  public let DocumentNumber: Swift.String?
+  public let IssuingCountry: Swift.String?
+  public let NationalNumber: Swift.String?
+  public let MRZDateOfBirth: Swift.String?
+  public let MRZDateOfExpiry: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ExtractedPassportData : Swift.Codable {
+  public let Sex: Swift.String?
+  public let Sex_ar: Swift.String?
+  public let Name: Swift.String?
+  public let Nationality: Swift.String?
   public let CountryCode: Swift.String?
-  public let PassportNo: Swift.String?
-  public let PassportType: Swift.String?
-  public let NationalNumberPassport: Swift.String?
+  public let NationalNumber: Swift.String?
+  public let PassportNumber: Swift.String?
+  public let DateOfBirth: Swift.String?
+  public let DateOfIssue: Swift.String?
+  public let Name_ar: Swift.String?
+  public let DateOfExpiry: Swift.String?
+  public let PlaceOfBirth: Swift.String?
+  public let PlaceOfIssue: Swift.String?
+  public let PlaceOfBirth_ar: Swift.String?
+  public let PlaceOfIssue_ar: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ExtractedData : Swift.Codable {
+  case idCard(TruID.ExtractedCardData)
+  case passport(TruID.ExtractedPassportData)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct DocumentCaptureReport : Swift.Codable {
-  public let extracted_data: TruID.ExtractedData?
-  public func encode(to encoder: any Swift.Encoder) throws
+  public let card: Swift.String
+  public let extractedData: TruID.ExtractedData?
   public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct DocumentCaptureReportStep : Swift.Codable {
   public let status: TruID.StatusValue?
