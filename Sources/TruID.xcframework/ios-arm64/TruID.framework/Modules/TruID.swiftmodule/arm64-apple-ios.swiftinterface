@@ -41,42 +41,45 @@ public struct ReportStep : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExtractedCardData : Swift.Codable {
-  public let Sex: Swift.String?
-  public let Name: Swift.String?
-  public let Address: Swift.String?
-  public let Occupation: Swift.String?
-  public let Nationality: Swift.String?
-  public let EnglishName: Swift.String?
-  public let DateOfBirth: Swift.String?
-  public let DateOfIssue: Swift.String?
-  public let DocumentType: Swift.String?
-  public let DateOfExpiry: Swift.String?
-  public let PlaceOfBirth: Swift.String?
-  public let PlaceOfIssue: Swift.String?
-  public let DocumentNumber: Swift.String?
-  public let IssuingCountry: Swift.String?
-  public let NationalNumber: Swift.String?
-  public let MRZDateOfBirth: Swift.String?
-  public let MRZDateOfExpiry: Swift.String?
+  public var Sex: Swift.String
+  public var Name: Swift.String
+  public var Address: Swift.String
+  public var Name_ar: Swift.String
+  public var Occupation: Swift.String
+  public var Nationality: Swift.String
+  public var EnglishName: Swift.String
+  public var DateOfBirth: Swift.String
+  public var DateOfIssue: Swift.String
+  public var DocumentType: Swift.String
+  public var DateOfExpiry: Swift.String
+  public var PlaceOfBirth: Swift.String
+  public var PlaceOfIssue: Swift.String
+  public var DocumentNumber: Swift.String
+  public var CountryCode: Swift.String
+  public var NationalNumber: Swift.String
+  public var MRZDateOfBirth: Swift.String
+  public var MRZDateOfExpiry: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExtractedPassportData : Swift.Codable {
-  public let Sex: Swift.String?
-  public let Sex_ar: Swift.String?
-  public let Name: Swift.String?
-  public let Nationality: Swift.String?
-  public let CountryCode: Swift.String?
-  public let NationalNumber: Swift.String?
-  public let PassportNumber: Swift.String?
-  public let DateOfBirth: Swift.String?
-  public let DateOfIssue: Swift.String?
-  public let Name_ar: Swift.String?
-  public let DateOfExpiry: Swift.String?
-  public let PlaceOfBirth: Swift.String?
-  public let PlaceOfIssue: Swift.String?
-  public let PlaceOfBirth_ar: Swift.String?
-  public let PlaceOfIssue_ar: Swift.String?
+  public var Sex: Swift.String
+  public var Sex_ar: Swift.String
+  public var Name: Swift.String
+  public var Nationality: Swift.String
+  public var CountryCode: Swift.String
+  public var EnglishName: Swift.String
+  public var NationalNumber: Swift.String
+  public var PassportNumber: Swift.String
+  public var DateOfBirth: Swift.String
+  public var DateOfIssue: Swift.String
+  public var DocumentType: Swift.String
+  public var Name_ar: Swift.String
+  public var DateOfExpiry: Swift.String
+  public var PlaceOfBirth: Swift.String
+  public var PlaceOfIssue: Swift.String
+  public var PlaceOfBirth_ar: Swift.String
+  public var PlaceOfIssue_ar: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -133,6 +136,7 @@ public struct Session : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let status: Swift.String?
   public let configuration: TruID.Configuration
+  public let ocr_editable_fields: [Swift.String]
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -187,7 +191,7 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, themeColor: SwiftUICore.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.Int, TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, editReportScreen: Swift.Bool = true, themeColor: SwiftUICore.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.Int, TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
 extension TruID.CardScreen : Swift.Sendable {}
