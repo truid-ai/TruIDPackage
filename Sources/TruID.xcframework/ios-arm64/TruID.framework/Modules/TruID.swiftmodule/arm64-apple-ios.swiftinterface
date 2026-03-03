@@ -5,10 +5,12 @@
 import AVFoundation
 import Accelerate
 import CommonCrypto
+import CoreFoundation
 import CoreGraphics
 import CoreImage
 import CoreLocation
 import CoreMedia
+import CoreVideo
 import DeveloperToolsSupport
 import Foundation
 import MapKit
@@ -23,6 +25,22 @@ import _Concurrency
 import _MapKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum FingersToScan : Swift.CaseIterable {
+  case LEFT_4
+  case RIGHT_4
+  case RIGHT_THUMB
+  case LEFT_THUMB
+  case LEFT_4_RIGHT_4
+  public static func == (a: TruID.FingersToScan, b: TruID.FingersToScan) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [TruID.FingersToScan]
+  nonisolated public static var allCases: [TruID.FingersToScan] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension Foundation.Bundle {
   public class func current(dsoHandle: Swift.UnsafeRawPointer = #dsohandle) -> Foundation.Bundle
 }
@@ -40,60 +58,21 @@ public struct ReportStep : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ExtractedCardData : Swift.Codable {
-  public var Sex: Swift.String
-  public var Name: Swift.String
-  public var Address: Swift.String
-  public var Name_ar: Swift.String
-  public var Occupation: Swift.String
-  public var Nationality: Swift.String
-  public var EnglishName: Swift.String
-  public var DateOfBirth: Swift.String
-  public var DateOfIssue: Swift.String
-  public var DocumentType: Swift.String
-  public var DateOfExpiry: Swift.String
-  public var PlaceOfBirth: Swift.String
-  public var PlaceOfIssue: Swift.String
-  public var DocumentNumber: Swift.String
-  public var CountryCode: Swift.String
-  public var NationalNumber: Swift.String
-  public var MRZDateOfBirth: Swift.String
-  public var MRZDateOfExpiry: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ExtractedPassportData : Swift.Codable {
-  public var Sex: Swift.String
-  public var Sex_ar: Swift.String
-  public var Name: Swift.String
-  public var Nationality: Swift.String
-  public var CountryCode: Swift.String
-  public var EnglishName: Swift.String
-  public var NationalNumber: Swift.String
-  public var PassportNumber: Swift.String
-  public var DateOfBirth: Swift.String
-  public var DateOfIssue: Swift.String
-  public var DocumentType: Swift.String
-  public var Name_ar: Swift.String
-  public var DateOfExpiry: Swift.String
-  public var PlaceOfBirth: Swift.String
-  public var PlaceOfIssue: Swift.String
-  public var PlaceOfBirth_ar: Swift.String
-  public var PlaceOfIssue_ar: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum ExtractedData : Swift.Codable {
-  case idCard(TruID.ExtractedCardData)
-  case passport(TruID.ExtractedPassportData)
+public struct ExtractedData : Swift.Codable {
+  public let Name: Swift.String?
+  public let Gender: Swift.String?
+  public let FatherName: Swift.String?
+  public let DateOfBirth: Swift.String?
+  public let DateOfIssue: Swift.String?
+  public let DateOfExpiry: Swift.String?
+  public let IdentityNumber: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct DocumentCaptureReport : Swift.Codable {
-  public let card: Swift.String
-  public let extractedData: TruID.ExtractedData?
-  public init(from decoder: any Swift.Decoder) throws
+  public let extracted_data: TruID.ExtractedData?
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DocumentCaptureReportStep : Swift.Codable {
   public let status: TruID.StatusValue?
@@ -107,6 +86,7 @@ public struct Report : Swift.Codable {
   public let face_liveness: TruID.ReportStep?
   public let id_to_selfie_matching: TruID.ReportStep?
   public let data_extraction: TruID.ReportStep?
+  public let fingerprint_capture: TruID.ReportStep?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -127,7 +107,8 @@ public struct StepConfig : Swift.Codable {
   public let id_to_selfie_matching: Swift.Bool?
   public let extract_data: Swift.Bool?
   public let document_authenticity: Swift.Bool?
-  public var document_backside_capture: Swift.Bool?
+  public let document_backside_capture: Swift.Bool?
+  public let finger_selection: Swift.Bool?
   public let passive_face_liveness: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -136,7 +117,6 @@ public struct Session : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let status: Swift.String?
   public let configuration: TruID.Configuration
-  public let ocr_editable_fields: [Swift.String]
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -158,6 +138,7 @@ public enum FailureCases : Swift.Equatable {
   case noSessionResult
   case validationErrorFromServer
   case sessionExpired
+  case cannotLoadModels
   case invalidConfiguration
   case notConnectedToInternet
   case noFlashLight
@@ -191,8 +172,17 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, editReportScreen: Swift.Bool = true, themeColor: SwiftUICore.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.Int, TruID.FailureCases) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, API_URL: Swift.String = "https://release-api.truid.ai", face_liveness: Swift.Bool = true, document_capture: Swift.Bool = true, extract_data: Swift.Bool = true, document_authenticity: Swift.Bool = true, document_backside_capture: Swift.Bool = true, id_to_selfie_matching: Swift.Bool = true, fingerprint_capture: Swift.Bool = true, fingerprint_selection: Swift.Bool = true, fingerprint_to_scan: TruID.FingersToScan = .RIGHT_4, fingerprint_instruction_popup: Swift.Bool = true, enableLanguageSelect: Swift.Bool = false, enableHelpScreens: Swift.Bool = true, enableReportScreen: Swift.Bool = true, isTestAccount: Swift.Bool = false, currentApplicant: Swift.Int? = nil, name: Swift.String, phoneNo: Swift.String, themeColor: SwiftUICore.Color = Color(UIColor(red: 200/255, green: 100/255, blue: 200/255, alpha: 1.0)), success: @escaping (TruID.SessionResult) -> Swift.Void, failure: @escaping (Swift.Int, TruID.FailureCases) -> Swift.Void)
   public typealias Body = @_opaqueReturnTypeOf("$s5TruID9TruidMainV4bodyQrvp", 0) __
 }
+@_Concurrency.MainActor @preconcurrency public struct FingerprintScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5TruID17FingerprintScreenV4bodyQrvp", 0) __
+}
+extension TruID.FingersToScan : Swift.Equatable {}
+extension TruID.FingersToScan : Swift.Hashable {}
 extension TruID.CardScreen : Swift.Sendable {}
 extension TruID.TruidMain : Swift.Sendable {}
+extension TruID.FingerprintScreen : Swift.Sendable {}

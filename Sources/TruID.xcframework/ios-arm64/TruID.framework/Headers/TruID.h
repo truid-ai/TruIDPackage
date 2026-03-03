@@ -19,3 +19,7 @@ FOUNDATION_EXPORT const unsigned char TruIDVersionString[];
 #import <TruID/OpenCVWrapper.h>
 #import <TruID/WSQWrapper.h>
 #import <TruID/FingerJet.h>
+#import <TruID/FDSource.h>
+#import <TruID/LSource.h>
+#import <TruID/NFIQSource.h>
+#import <TruID/PMSource.h>
