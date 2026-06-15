@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage *)binarize:(UIImage *)image;
 + (UIImage *)applyPill:(UIImage *)image :(UIImage *)pillImage;
 + (BOOL)isImageOverexposed:(UIImage *)image;
++ (NSArray<NSNumber *> *)makeHistogramFromClose:(UIImage *)closeImage
+                                            far:(UIImage *)farImage;
++ (UIImage * _Nullable)rectifyImage:(UIImage *)anchorImage withTestImage:(UIImage *)testImage;
++ (double)laplacianVariance:(UIImage *)image;
 
 @end
 
