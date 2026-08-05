@@ -3727,6 +3727,140 @@
         "kind": "TypeDecl",
         "name": "FingerprintResult",
         "printedName": "FingerprintResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID17FingerprintResultV5indexSivp",
+            "mangledName": "$s5TruID17FingerprintResultV5indexSivp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID17FingerprintResultV5indexSivg",
+                "mangledName": "$s5TruID17FingerprintResultV5indexSivg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawFingerprintDataUri",
+            "printedName": "rawFingerprintDataUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID17FingerprintResultV03rawC7DataUriSSvp",
+            "mangledName": "$s5TruID17FingerprintResultV03rawC7DataUriSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID17FingerprintResultV03rawC7DataUriSSvg",
+                "mangledName": "$s5TruID17FingerprintResultV03rawC7DataUriSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wsqData",
+            "printedName": "wsqData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID17FingerprintResultV7wsqDataSSvp",
+            "mangledName": "$s5TruID17FingerprintResultV7wsqDataSSvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID17FingerprintResultV7wsqDataSSvg",
+                "mangledName": "$s5TruID17FingerprintResultV7wsqDataSSvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:5TruID17FingerprintResultV",
         "mangledName": "$s5TruID17FingerprintResultV",
