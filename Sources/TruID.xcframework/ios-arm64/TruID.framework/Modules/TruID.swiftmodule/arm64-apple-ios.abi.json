@@ -3359,14 +3359,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TruID7SessionV13pipeline_caseSSvp",
-            "mangledName": "$s5TruID7SessionV13pipeline_caseSSvp",
+            "usr": "s:5TruID7SessionV13pipeline_caseSSSgvp",
+            "mangledName": "$s5TruID7SessionV13pipeline_caseSSSgvp",
             "moduleName": "TruID",
             "declAttributes": [
               "HasStorage",
@@ -3382,14 +3390,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TruID7SessionV13pipeline_caseSSvg",
-                "mangledName": "$s5TruID7SessionV13pipeline_caseSSvg",
+                "usr": "s:5TruID7SessionV13pipeline_caseSSSgvg",
+                "mangledName": "$s5TruID7SessionV13pipeline_caseSSSgvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"

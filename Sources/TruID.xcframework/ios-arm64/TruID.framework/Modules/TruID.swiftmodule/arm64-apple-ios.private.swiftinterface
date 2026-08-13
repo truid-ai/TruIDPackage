@@ -117,7 +117,7 @@ public struct Session : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let status: Swift.String?
   public let configuration: TruID.Configuration
-  public let pipeline_case: Swift.String
+  public let pipeline_case: Swift.String?
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
