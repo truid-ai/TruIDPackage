@@ -41,6 +41,19 @@ public enum FingersToScan : Swift.CaseIterable {
     get
   }
 }
+public enum PipelineCase : Swift.CaseIterable {
+  case OLD
+  case NEW
+  public static func == (a: TruID.PipelineCase, b: TruID.PipelineCase) -> Swift.Bool
+  public typealias AllCases = [TruID.PipelineCase]
+  nonisolated public static var allCases: [TruID.PipelineCase] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension Foundation.Bundle {
   public class func current(dsoHandle: Swift.UnsafeRawPointer = #dsohandle) -> Foundation.Bundle
 }
@@ -184,6 +197,8 @@ extension SwiftUICore.View {
 }
 extension TruID.FingersToScan : Swift.Equatable {}
 extension TruID.FingersToScan : Swift.Hashable {}
+extension TruID.PipelineCase : Swift.Equatable {}
+extension TruID.PipelineCase : Swift.Hashable {}
 extension TruID.CardScreen : Swift.Sendable {}
 extension TruID.TruidMain : Swift.Sendable {}
 extension TruID.FingerprintScreen : Swift.Sendable {}
