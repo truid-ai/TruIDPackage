@@ -14,6 +14,7 @@
  @param inputImage The raw UIImage to process.
  @return A processed UIImage with black ridges on a white background, or nil if an error occurs.
  */
-+ (UIImage *)processImage:(UIImage *)inputImage;
++ (UIImage *)processImage:(UIImage *)inputImage
+            invert_pixels:(NSString *)invert_pixels;
 
 @end
