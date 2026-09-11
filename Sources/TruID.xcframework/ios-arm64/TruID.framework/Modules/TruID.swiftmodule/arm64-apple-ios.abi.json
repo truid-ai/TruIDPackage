@@ -205,6 +205,43 @@
             "moduleName": "TruID"
           },
           {
+            "kind": "Var",
+            "name": "BOTH_THUMBS",
+            "printedName": "BOTH_THUMBS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruID.FingersToScan.Type) -> TruID.FingersToScan",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FingersToScan",
+                    "printedName": "TruID.FingersToScan",
+                    "usr": "s:5TruID13FingersToScanO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruID.FingersToScan.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FingersToScan",
+                        "printedName": "TruID.FingersToScan",
+                        "usr": "s:5TruID13FingersToScanO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5TruID13FingersToScanO11BOTH_THUMBSyA2CmF",
+            "mangledName": "$s5TruID13FingersToScanO11BOTH_THUMBSyA2CmF",
+            "moduleName": "TruID"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -2427,6 +2464,376 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SDK_Configuration",
+        "printedName": "SDK_Configuration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pipeline_type",
+            "printedName": "pipeline_type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID17SDK_ConfigurationV13pipeline_typeSiSgvp",
+            "mangledName": "$s5TruID17SDK_ConfigurationV13pipeline_typeSiSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID17SDK_ConfigurationV13pipeline_typeSiSgvg",
+                "mangledName": "$s5TruID17SDK_ConfigurationV13pipeline_typeSiSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDK_Configuration",
+                "printedName": "TruID.SDK_Configuration",
+                "usr": "s:5TruID17SDK_ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5TruID17SDK_ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID17SDK_ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TruID",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5TruID17SDK_ConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID17SDK_ConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TruID",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5TruID17SDK_ConfigurationV",
+        "mangledName": "$s5TruID17SDK_ConfigurationV",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKConfiguration",
+        "printedName": "SDKConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ios_nfiq_threshold",
+            "printedName": "ios_nfiq_threshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID16SDKConfigurationV18ios_nfiq_thresholdSfSgvp",
+            "mangledName": "$s5TruID16SDKConfigurationV18ios_nfiq_thresholdSfSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID16SDKConfigurationV18ios_nfiq_thresholdSfSgvg",
+                "mangledName": "$s5TruID16SDKConfigurationV18ios_nfiq_thresholdSfSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdk_configuration",
+            "printedName": "sdk_configuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruID.SDK_Configuration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK_Configuration",
+                    "printedName": "TruID.SDK_Configuration",
+                    "usr": "s:5TruID17SDK_ConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID16SDKConfigurationV17sdk_configurationAA17SDK_ConfigurationVSgvp",
+            "mangledName": "$s5TruID16SDKConfigurationV17sdk_configurationAA17SDK_ConfigurationVSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruID.SDK_Configuration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDK_Configuration",
+                        "printedName": "TruID.SDK_Configuration",
+                        "usr": "s:5TruID17SDK_ConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID16SDKConfigurationV17sdk_configurationAA17SDK_ConfigurationVSgvg",
+                "mangledName": "$s5TruID16SDKConfigurationV17sdk_configurationAA17SDK_ConfigurationVSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfiguration",
+                "printedName": "TruID.SDKConfiguration",
+                "usr": "s:5TruID16SDKConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5TruID16SDKConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5TruID16SDKConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TruID",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5TruID16SDKConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5TruID16SDKConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TruID",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5TruID16SDKConfigurationV",
+        "mangledName": "$s5TruID16SDKConfigurationV",
+        "moduleName": "TruID",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Config",
         "printedName": "Config",
         "children": [
@@ -3346,6 +3753,126 @@
                 "declKind": "Accessor",
                 "usr": "s:5TruID7SessionV13configurationAA13ConfigurationVvg",
                 "mangledName": "$s5TruID7SessionV13configurationAA13ConfigurationVvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pipeline_case",
+            "printedName": "pipeline_case",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID7SessionV13pipeline_caseSSSgvp",
+            "mangledName": "$s5TruID7SessionV13pipeline_caseSSSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID7SessionV13pipeline_caseSSSgvg",
+                "mangledName": "$s5TruID7SessionV13pipeline_caseSSSgvg",
+                "moduleName": "TruID",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdk_configuration",
+            "printedName": "sdk_configuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruID.SDKConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKConfiguration",
+                    "printedName": "TruID.SDKConfiguration",
+                    "usr": "s:5TruID16SDKConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5TruID7SessionV17sdk_configurationAA16SDKConfigurationVSgvp",
+            "mangledName": "$s5TruID7SessionV17sdk_configurationAA16SDKConfigurationVSgvp",
+            "moduleName": "TruID",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruID.SDKConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKConfiguration",
+                        "printedName": "TruID.SDKConfiguration",
+                        "usr": "s:5TruID16SDKConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5TruID7SessionV17sdk_configurationAA16SDKConfigurationVSgvg",
+                "mangledName": "$s5TruID7SessionV17sdk_configurationAA16SDKConfigurationVSgvg",
                 "moduleName": "TruID",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5519,7 +6046,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:API_URL:face_liveness:document_capture:extract_data:document_authenticity:document_backside_capture:id_to_selfie_matching:fingerprint_capture:fingerprint_selection:fingerprint_to_scan:fingerprint_instruction_popup:enableLanguageSelect:enableHelpScreens:enableReportScreen:isTestAccount:currentApplicant:accountType:themeColor:success:failure:)",
+            "printedName": "init(token:API_URL:face_liveness:document_capture:extract_data:document_authenticity:document_backside_capture:id_to_selfie_matching:fingerprint_capture:fingerprint_selection:fingerprint_to_scan:fingerprint_instruction_popup:fingerprint_pipeline_selection:enableLanguageSelect:enableHelpScreens:enableReportScreen:enableStartScreen:isTestAccount:currentApplicant:accountType:themeColor:success:failure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5640,6 +6167,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.Int?",
                 "children": [
@@ -5718,8 +6259,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan0T18_instruction_popup20enableLanguageSelect0Y11HelpScreens0Y12ReportScreen13isTestAccount16currentApplicant11accountType10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS5bSiSgSS7SwiftUI5ColorVyAA13SessionResultVcySi_AA12FailureCasesOtctcfc",
-            "mangledName": "$s5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan0T18_instruction_popup20enableLanguageSelect0Y11HelpScreens0Y12ReportScreen13isTestAccount16currentApplicant11accountType10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS5bSiSgSS7SwiftUI5ColorVyAA13SessionResultVcySi_AA12FailureCasesOtctcfc",
+            "usr": "s:5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan0T18_instruction_popup0t10_pipeline_U020enableLanguageSelect0Z11HelpScreens0Z12ReportScreen0Z11StartScreen13isTestAccount16currentApplicant11accountType10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS7bSiSgSS7SwiftUI5ColorVyAA13SessionResultVcySi_AA12FailureCasesOtctcfc",
+            "mangledName": "$s5TruID9TruidMainV5token7API_URL13face_liveness16document_capture12extract_data0J13_authenticity0j10_backside_K021id_to_selfie_matching012fingerprint_K00T10_selection0t1_Q5_scan0T18_instruction_popup0t10_pipeline_U020enableLanguageSelect0Z11HelpScreens0Z12ReportScreen0Z11StartScreen13isTestAccount16currentApplicant11accountType10themeColor7success7failureACSS_SSS8bAA13FingersToScanOS7bSiSgSS7SwiftUI5ColorVyAA13SessionResultVcySi_AA12FailureCasesOtctcfc",
             "moduleName": "TruID",
             "declAttributes": [
               "Preconcurrency",
@@ -6788,7 +7329,7 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/Requests.swift",
       "kind": "StringLiteral",
-      "offset": 6150,
+      "offset": 6463,
       "length": 2,
       "value": "\"\""
     },
@@ -7564,192 +8105,220 @@
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1182,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1194,
+      "offset": 1329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1366,
+      "offset": 1501,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1370,
+      "offset": 1505,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1382,
+      "offset": 1517,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
+      "offset": 1521,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1397,
+      "offset": 1532,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1401,
+      "offset": 1536,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 1413,
+      "offset": 1548,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1456,
+      "offset": 1591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1496,
+      "offset": 1631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1537,
+      "offset": 1672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1573,
+      "offset": 1708,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "StringLiteral",
-      "offset": 1646,
+      "offset": 1821,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1718,
+      "offset": 1893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1827,
+      "offset": 2002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1863,
+      "offset": 2038,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 2528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2458,
+      "offset": 2679,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2462,
+      "offset": 2683,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2474,
+      "offset": 2695,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2478,
+      "offset": 2699,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2489,
+      "offset": 2710,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "IntegerLiteral",
-      "offset": 2493,
+      "offset": 2714,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "FloatLiteral",
-      "offset": 2505,
+      "offset": 2726,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2666,
+      "offset": 2887,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2707,
+      "offset": 2928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2748,
+      "offset": 2969,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/GlobalState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3009,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/SDKMain.swift",
@@ -7811,27 +8380,27 @@
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/UITextMessages.swift",
       "kind": "Dictionary",
       "offset": 5030,
-      "length": 561,
-      "value": "[(\"title\", \"Fingerprint verification\"), (\"subtitle\", \"Capture a clear photo of your fingerprint(s).\"), (\"instruction1\", \"Select the fingers you want to verify\"), (\"instruction2\", \"Position your hand at the right distance and angle for a clear photo\"), (\"instruction3\", \"Ensure your hand is clean and dry, and the background is plain.\"), (\"fingerSelectionLabel\", \"Fingers to scan:\"), (\"buttonText\", \"Start fingerprint scanning\")]"
+      "length": 618,
+      "value": "[(\"title\", \"Fingerprint verification\"), (\"subtitle\", \"Capture a clear photo of your fingerprint(s).\"), (\"instruction1\", \"Select the fingers you want to verify\"), (\"instruction2\", \"Position your hand at the right distance and angle for a clear photo\"), (\"instruction3\", \"Ensure your hand is clean and dry, and the background is plain.\"), (\"fingerSelectionLabel\", \"Fingers to scan:\"), (\"fingerPipelineLabel\", \"Pipeline Case:\"), (\"buttonText\", \"Start fingerprint scanning\")]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/UITextMessages.swift",
       "kind": "Dictionary",
-      "offset": 5649,
-      "length": 734,
-      "value": "[(\"title\", \"فنگرپرنٹ کی تصدیق\"), (\"subtitle\", \"اپنے فنگرپرنٹس کی واضح تصویر لیں۔\"), (\"instruction1\", \"انگلیاں منتخب کریں جن کی آپ تصدیق کرنا چاہتے ہیں\"), (\"instruction2\", \"واضح تصویر کے لیے ہاتھ کو مناسب فاصلے اور زاویے پر رکھیں\"), (\"instruction3\", \"یقینی بنائیں کہ ہاتھ صاف اور خشک ہو اور پس منظر سادہ ہو\"), (\"fingerSelectionLabel\", \"سکین کرنے کے لیے انگلیاں\"), (\"buttonText\", \"فنگرپرنٹ اسکیننگ شروع کریں\")]"
+      "offset": 5706,
+      "length": 802,
+      "value": "[(\"title\", \"فنگرپرنٹ کی تصدیق\"), (\"subtitle\", \"اپنے فنگرپرنٹس کی واضح تصویر لیں۔\"), (\"instruction1\", \"انگلیاں منتخب کریں جن کی آپ تصدیق کرنا چاہتے ہیں\"), (\"instruction2\", \"واضح تصویر کے لیے ہاتھ کو مناسب فاصلے اور زاویے پر رکھیں\"), (\"instruction3\", \"یقینی بنائیں کہ ہاتھ صاف اور خشک ہو اور پس منظر سادہ ہو\"), (\"fingerSelectionLabel\", \"سکین کرنے کے لیے انگلیاں\"), (\"fingerPipelineLabel\", \"پائپ لائن کیس:\"), (\"buttonText\", \"فنگرپرنٹ اسکیننگ شروع کریں\")]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/UITextMessages.swift",
       "kind": "Dictionary",
-      "offset": 6788,
+      "offset": 6913,
       "length": 1486,
       "value": "[(\"verifiedTitle\", \"Verification Completed!\"), (\"verifiedSubtitle\", \"You're all set. Your identity has been verified successfully.\"), (\"notVerifiedTitle\", \"Verification Failed!\"), (\"notVerifiedSubtitle\", \"Following checks have been failed. Please try a new session.\"), (\"subtitle2\", \"Completed the following verifications\"), (\"FC_FaceDetection_title\", \"Face Liveness Detection\"), (\"FC_DocumentCapture_title\", \"Document Capture\"), (\"FC_DataExtraction_title\", \"Data Extraction\"), (\"extractedName\", \"Name\"), (\"extractedFatherName\", \"Father Name\"), (\"extractedDateOfBirth\", \"Date Of Birth\"), (\"extractedDateOfIssue\", \"Date Of Issue\"), (\"extractedDateOfExpiry\", \"Date Of Expiry\"), (\"extractedIdentityNo\", \"Identity Number\"), (\"FC_DocAuthenticity_title\", \"Document Authenticity\"), (\"FC_IDtoSelfie\", \"ID to Selfie Matching\"), (\"FC_Fingerprint_title\", \"Fingerprint Verification\"), (\"sessionTitle\", \"Session\"), (\"buttonTitle\", \"Close\")]"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/UITextMessages.swift",
       "kind": "Dictionary",
-      "offset": 8346,
+      "offset": 8471,
       "length": 1778,
       "value": "[(\"verifiedTitle\", \"تصدیق مکمل ہو گئی!\"), (\"verifiedSubtitle\", \"آپ بالکل تیار ہیں۔ آپ کی شناخت کی کامیابی سے تصدیق ہو گئی ہے۔\"), (\"notVerifiedTitle\", \"تصدیق ناکام ہوگئی!\"), (\"notVerifiedSubtitle\", \"درج ذیل چیک ناکام ہو گئے ہیں۔ براہ کرم ایک نیا سیشن آزمائیں۔\"), (\"subtitle2\", \"درج ذیل تصدیقات مکمل کیں۔\"), (\"FC_FaceDetection_title\", \"چہرے کی زندہ دلی کا پتہ لگانا\"), (\"FC_DocumentCapture_title\", \"دستاویز کی گرفتاری\"), (\"FC_DataExtraction_title\", \"ڈیٹا نکالنا\"), (\"extractedName\", \"نام\"), (\"extractedFatherName\", \"والد کا نام\"), (\"extractedDateOfBirth\", \"تاریخ پیدائش\"), (\"extractedDateOfIssue\", \"جاری ہونے کی تاریخ\"), (\"extractedDateOfExpiry\", \"میعاد ختم ہونے کی تاریخ\"), (\"extractedIdentityNo\", \"شناختی نمبر\"), (\"FC_DocAuthenticity_title\", \"دستاویز کی صداقت\"), (\"FC_IDtoSelfie\", \"آئی ڈی سے سیلفی میچنگ\"), (\"FC_Fingerprint_title\", \"فنگر پرنٹ کی تصدیق\"), (\"sessionTitle\", \"سیشن\"), (\"buttonTitle\", \"بند\")]"
     },
@@ -12402,184 +12971,191 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 395,
       "length": 14,
       "value": "\"instruction1\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 448,
       "length": 14,
       "value": "\"instruction2\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 501,
       "length": 14,
       "value": "\"instruction3\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 623,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 13,
-      "value": "\"fingerprint\""
-    },
-    {
-      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 557,
+      "offset": 763,
       "length": 3,
       "value": "212"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 628,
+      "offset": 834,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 713,
+      "offset": 919,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 803,
+      "offset": 1009,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 873,
+      "offset": 1079,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1229,
       "length": 10,
       "value": "\"subtitle\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1189,
+      "offset": 1395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1206,
+      "offset": 1412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1654,
       "length": 22,
       "value": "\"fingerSelectionLabel\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 1597,
+      "offset": 1803,
       "length": 17,
       "value": "\"Fingers to scan\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2232,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 2079,
+      "offset": 2285,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2096,
+      "offset": 2302,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2449,
       "length": 12,
       "value": "\"buttonText\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2313,
+      "offset": 2519,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2441,
+      "offset": 2647,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2502,
+      "offset": 2708,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2634,
+      "offset": 2840,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2739,
+      "offset": 2945,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 2808,
+      "offset": 3014,
       "length": 3,
       "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 3147,
+      "length": 38,
+      "value": "\"lotted selection: \""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/HelpScreens\/FingerprintHelpScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 3184,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Services\/LocationManager.swift",
@@ -12850,35 +13426,35 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16198,
+      "offset": 16222,
       "length": 103,
       "value": "\"Your selfie couldn't be verified. Please try again in better lighting with your face clearly visible.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16425,
+      "offset": 16449,
       "length": 75,
       "value": "\"Your retries limit for liveness check has been reached. Please try again.\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16722,
+      "offset": 16746,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 16781,
+      "offset": 16805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FaceScreen\/FaceLivenessHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 16821,
+      "offset": 16845,
       "length": 1,
       "value": "6"
     },
@@ -12955,84 +13531,98 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 2289,
+      "offset": 2299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 2330,
+      "offset": 2383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 2371,
+      "offset": 2424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "BooleanLiteral",
-      "offset": 2407,
+      "offset": 2464,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2501,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "StringLiteral",
-      "offset": 2482,
+      "offset": 2576,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2542,
+      "offset": 2636,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2546,
+      "offset": 2640,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2558,
+      "offset": 2652,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2562,
+      "offset": 2656,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2573,
+      "offset": 2667,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "IntegerLiteral",
-      "offset": 2577,
+      "offset": 2671,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/App\/TruidMain.swift",
       "kind": "FloatLiteral",
-      "offset": 2589,
+      "offset": 2683,
       "length": 3,
       "value": "1.0"
     },
@@ -13053,14 +13643,14 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2854,
+      "offset": 2929,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Networking\/APIHandler.swift",
       "kind": "Array",
-      "offset": 2900,
+      "offset": 2975,
       "length": 2,
       "value": "[]"
     },
@@ -13263,58 +13853,177 @@
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1314,
+      "offset": 1318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1385,
+      "offset": 1389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1472,
+      "offset": 1476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1541,
       "length": 31,
       "value": "\"ai.truid.TruID.inferencequeue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 1641,
       "length": 43,
       "value": "\"ai.truid.TruID.fingerprintProcessingQueue\""
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1726,
+      "offset": 1730,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1873,
+      "offset": 1877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2317,
+      "offset": 2406,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2625,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8261,
+      "length": 18,
+      "value": "\"Unable to rotate\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8413,
+      "length": 40,
+      "value": "\"unable to get image from sample buffer\""
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8930,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9248,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9252,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9400,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11228,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11587,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 11668,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "Array",
+      "offset": 11919,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12077,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Components\/ProgressBar.swift",
@@ -13544,15 +14253,15 @@
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
       "offset": 329,
-      "length": 3,
-      "value": "0.5"
+      "length": 4,
+      "value": "0.55"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Screens\/FingerprintScreen\/FingerprintScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 368,
-      "length": 4,
-      "value": "0.40"
+      "offset": 369,
+      "length": 3,
+      "value": "0.4"
     },
     {
       "filePath": "\/Users\/truid\/Desktop\/Truid-IOS\/TruID\/TruID\/Models\/Constants.swift",
