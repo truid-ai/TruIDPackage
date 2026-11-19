@@ -23,4 +23,7 @@ FOUNDATION_EXPORT const unsigned char TruIDVersionString[];
 #import <TruID/LSource.h>
 #import <TruID/NFIQSource.h>
 #import <TruID/PMSource.h>
-#import <TruID/FingerprintProcessor.h>
+#import <TruID/CardCornerModel.h>
+#import <TruID/FSSource.h>
+#import <TruID/P5GSource.h>
+#import <TruID/P5Native.h>

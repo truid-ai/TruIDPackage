@@ -23,7 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)isImageOverexposed:(UIImage *)image;
 + (NSArray<NSNumber *> *)makeHistogramFromClose:(UIImage *)closeImage
                                             far:(UIImage *)farImage;
-+ (UIImage * _Nullable)rectifyImage:(UIImage *)anchorImage withTestImage:(UIImage *)testImage;
 + (double)laplacianVariance:(UIImage *)image;
 
 @end
