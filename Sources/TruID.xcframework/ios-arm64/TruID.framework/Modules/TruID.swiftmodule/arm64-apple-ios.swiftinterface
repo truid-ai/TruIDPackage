@@ -122,6 +122,8 @@ public struct Session : Swift.Codable, Swift.Identifiable {
   public let status: Swift.String?
   public let configuration: TruID.Configuration
   public let enable_session_log: Swift.Bool
+  public let enable_interval_based_session: Swift.Bool
+  public let session_log_interval: Swift.Double
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
 }
